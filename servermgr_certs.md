@@ -26,7 +26,6 @@
 * [getState](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_certs.md#getstate)
 * [importCertificates](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_certs.md#importcertificates)
 * [importIdentity](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_certs.md#importidentity)
-* [init](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_certs.md#init)
 * [initialSetup](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_certs.md#initialsetup)
 * [isODCAPresent](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_certs.md#isodcapresent)
 * [migrateLegacyAccess](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_certs.md#migratelegacyaccess)
@@ -87,8 +86,6 @@
 ## importCertificates
 
 ## importIdentity
-
-## init
 
 ## initialSetup
 

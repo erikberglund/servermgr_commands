@@ -19,7 +19,6 @@
 * [getRestartServermgrdStatus](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_info.md#getrestartservermgrdstatus)
 * [getState](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_info.md#getstate)
 * [getSystemLogPaths](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_info.md#getsystemlogpaths)
-* [init](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_info.md#init)
 * [readSettings](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_info.md#readsettings)
 * [removeFiles](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_info.md#removefiles)
 * [sendDiagnosticDataToApple](https://github.com/erikberglund/servermgr_commands/blob/master/servermgr_info.md#senddiagnosticdatatoapple)
@@ -57,8 +56,6 @@
 ## getState
 
 ## getSystemLogPaths
-
-## init
 
 ## readSettings
 

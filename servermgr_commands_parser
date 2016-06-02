@@ -91,7 +91,7 @@ for bundle in "${path_servermgr_bundles}"/*; do
     while read bundle_command; do
         printf "%s\n" "* [${bundle_command}](${github_base_url}/${path_output_file_bundle##*/}#$( tr '[:upper:]' '[:lower:]' <<< ${bundle_command} ))" >> "${path_output_file_bundle}"
         bundle_command_description_titles+=("## ${bundle_command}")
-    done < <( strings "${bundle_binary}" | sed -nE 's/^\ ?([a-zA-Z]*)WithRequest:.*/\1/p' | sort | uniq )
+    done < <( strings "${bundle_binary}" | sed -nE 's/^\ ?([a-zA-Z]*)WithRequest:.*/\1/p' | awk '!/^init$/' | sort | uniq )
     
     printf "\n%s\n\n" "# Command Descriptions" >> "${path_output_file_bundle}"
     printf "%s\n\n" "${bundle_command_description_titles[@]}" >> "${path_output_file_bundle}"
