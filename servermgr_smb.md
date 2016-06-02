@@ -17,13 +17,37 @@
 
 ## disconnectUsers
 
+```bash
+sudo serveradmin -x command smb:command = disconnectUsers
+```
+
 ## getConnectedUsers
+
+```bash
+sudo serveradmin -x command smb:command = getConnectedUsers
+```
 
 ## getHistory
 
+```bash
+sudo serveradmin -x command smb:command = getHistory
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command smb:command = getState
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command smb:command = readSettings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command smb:command = writeSettings
+```
 

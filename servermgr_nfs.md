@@ -16,11 +16,31 @@
 
 ## getConnectedUsers
 
+```bash
+sudo serveradmin -x command nfs:command = getConnectedUsers
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command nfs:command = getState
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command nfs:command = readSettings
+```
+
 ## updateNFS
 
+```bash
+sudo serveradmin -x command nfs:command = updateNFS
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command nfs:command = writeSettings
+```
 

@@ -20,19 +20,55 @@
 
 ## doProcessInput
 
+```bash
+sudo serveradmin -x command wiki:command = doProcessInput
+```
+
 ## getCountOfActiveUsers
+
+```bash
+sudo serveradmin -x command wiki:command = getCountOfActiveUsers
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command wiki:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command wiki:command = getState
+```
 
 ## getWikiList
 
+```bash
+sudo serveradmin -x command wiki:command = getWikiList
+```
+
 ## getWikisList
+
+```bash
+sudo serveradmin -x command wiki:command = getWikisList
+```
 
 ## initialSetup
 
+```bash
+sudo serveradmin -x command wiki:command = initialSetup
+```
+
 ## readSettings
 
+```bash
+sudo serveradmin -x command wiki:command = readSettings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command wiki:command = writeSettings
+```
 

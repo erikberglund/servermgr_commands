@@ -22,23 +22,67 @@
 
 ## MXRecordsForDomainNames
 
+```bash
+sudo serveradmin -x command status:command = MXRecordsForDomainNames
+```
+
 ## connectionStatusForPorts
+
+```bash
+sudo serveradmin -x command status:command = connectionStatusForPorts
+```
 
 ## getExternalDomainName
 
+```bash
+sudo serveradmin -x command status:command = getExternalDomainName
+```
+
 ## getExternalIPAddress
+
+```bash
+sudo serveradmin -x command status:command = getExternalIPAddress
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command status:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command status:command = getState
+```
 
 ## isServerAlive
 
+```bash
+sudo serveradmin -x command status:command = isServerAlive
+```
+
 ## reachabilityForWebDomains
+
+```bash
+sudo serveradmin -x command status:command = reachabilityForWebDomains
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command status:command = readSettings
+```
+
 ## resolutionStatusForDomainName
 
+```bash
+sudo serveradmin -x command status:command = resolutionStatusForDomainName
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command status:command = writeSettings
+```
 

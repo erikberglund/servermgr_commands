@@ -31,41 +31,121 @@
 
 ## backupArchive
 
+```bash
+sudo serveradmin -x command dirserv:command = backupArchive
+```
+
 ## changeip
+
+```bash
+sudo serveradmin -x command dirserv:command = changeip
+```
 
 ## checkHostName
 
+```bash
+sudo serveradmin -x command dirserv:command = checkHostName
+```
+
 ## createRootCA
+
+```bash
+sudo serveradmin -x command dirserv:command = createRootCA
+```
 
 ## createServicePrincipals
 
+```bash
+sudo serveradmin -x command dirserv:command = createServicePrincipals
+```
+
 ## disableAuthMechs
+
+```bash
+sudo serveradmin -x command dirserv:command = disableAuthMechs
+```
 
 ## enableAuthMechs
 
+```bash
+sudo serveradmin -x command dirserv:command = enableAuthMechs
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command dirserv:command = getLogPaths
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command dirserv:command = getState
+```
+
 ## joinKerb
+
+```bash
+sudo serveradmin -x command dirserv:command = joinKerb
+```
 
 ## preflightMasterCreation
 
+```bash
+sudo serveradmin -x command dirserv:command = preflightMasterCreation
+```
+
 ## preflightReplicaCreation
+
+```bash
+sudo serveradmin -x command dirserv:command = preflightReplicaCreation
+```
 
 ## preflightReplicaDecommission
 
+```bash
+sudo serveradmin -x command dirserv:command = preflightReplicaDecommission
+```
+
 ## preflightReplicaPromotion
+
+```bash
+sudo serveradmin -x command dirserv:command = preflightReplicaPromotion
+```
 
 ## readEnabledAuthMechs
 
+```bash
+sudo serveradmin -x command dirserv:command = readEnabledAuthMechs
+```
+
 ## readProgress
+
+```bash
+sudo serveradmin -x command dirserv:command = readProgress
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command dirserv:command = readSettings
+```
+
 ## readTreeSettings
+
+```bash
+sudo serveradmin -x command dirserv:command = readTreeSettings
+```
 
 ## restoreArchive
 
+```bash
+sudo serveradmin -x command dirserv:command = restoreArchive
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command dirserv:command = writeSettings
+```
 

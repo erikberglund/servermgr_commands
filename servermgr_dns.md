@@ -18,15 +18,43 @@
 
 ## createRndcKeys
 
+```bash
+sudo serveradmin -x command dns:command = createRndcKeys
+```
+
 ## flushCache
+
+```bash
+sudo serveradmin -x command dns:command = flushCache
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command dns:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command dns:command = getState
+```
 
 ## migrate
 
+```bash
+sudo serveradmin -x command dns:command = migrate
+```
+
 ## readSettings
 
+```bash
+sudo serveradmin -x command dns:command = readSettings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command dns:command = writeSettings
+```
 

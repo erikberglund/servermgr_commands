@@ -44,67 +44,199 @@
 
 ## addDeviceWithIDToADCTeamWithTeamID
 
+```bash
+sudo serveradmin -x command xcode:command = addDeviceWithIDToADCTeamWithTeamID
+```
+
 ## cancelJoinRequestForTeamID
+
+```bash
+sudo serveradmin -x command xcode:command = cancelJoinRequestForTeamID
+```
 
 ## cancelJoinRequestForTeamIDAppleIDAndPassword
 
+```bash
+sudo serveradmin -x command xcode:command = cancelJoinRequestForTeamIDAppleIDAndPassword
+```
+
 ## createLocalRepository
+
+```bash
+sudo serveradmin -x command xcode:command = createLocalRepository
+```
 
 ## exampleErrorResponse
 
+```bash
+sudo serveradmin -x command xcode:command = exampleErrorResponse
+```
+
 ## getADCTeamsForAppleID
+
+```bash
+sudo serveradmin -x command xcode:command = getADCTeamsForAppleID
+```
 
 ## getADCTeamsForAppleIDAndPassword
 
+```bash
+sudo serveradmin -x command xcode:command = getADCTeamsForAppleIDAndPassword
+```
+
 ## getCurrentlyConnectedDevices
+
+```bash
+sudo serveradmin -x command xcode:command = getCurrentlyConnectedDevices
+```
 
 ## getFirstLaunchArgumentsForXcodeAtPath
 
+```bash
+sudo serveradmin -x command xcode:command = getFirstLaunchArgumentsForXcodeAtPath
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command xcode:command = getLogPaths
+```
 
 ## getSetXcodePathProgress
 
+```bash
+sudo serveradmin -x command xcode:command = getSetXcodePathProgress
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command xcode:command = getState
+```
 
 ## getSupportsWebProxy
 
+```bash
+sudo serveradmin -x command xcode:command = getSupportsWebProxy
+```
+
 ## initialSetup
+
+```bash
+sudo serveradmin -x command xcode:command = initialSetup
+```
 
 ## joinTeamsWithAppleID
 
+```bash
+sudo serveradmin -x command xcode:command = joinTeamsWithAppleID
+```
+
 ## joinTeamsWithAppleIDAndPassword
+
+```bash
+sudo serveradmin -x command xcode:command = joinTeamsWithAppleIDAndPassword
+```
 
 ## listLocalRepositories
 
+```bash
+sudo serveradmin -x command xcode:command = listLocalRepositories
+```
+
 ## needToDisplayFirstLaunchForXcodeAtPath
+
+```bash
+sudo serveradmin -x command xcode:command = needToDisplayFirstLaunchForXcodeAtPath
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command xcode:command = readSettings
+```
+
 ## removeDeviceWithIDFromADCTeamWithTeamID
+
+```bash
+sudo serveradmin -x command xcode:command = removeDeviceWithIDFromADCTeamWithTeamID
+```
 
 ## removeLocalRepository
 
+```bash
+sudo serveradmin -x command xcode:command = removeLocalRepository
+```
+
 ## renewTeamMembershipForTeamID
+
+```bash
+sudo serveradmin -x command xcode:command = renewTeamMembershipForTeamID
+```
 
 ## renewTeamMembershipForTeamIDUsingAppleIDAndPassword
 
+```bash
+sudo serveradmin -x command xcode:command = renewTeamMembershipForTeamIDUsingAppleIDAndPassword
+```
+
 ## revokeTeamMembershipForTeamID
+
+```bash
+sudo serveradmin -x command xcode:command = revokeTeamMembershipForTeamID
+```
 
 ## revokeTeamMembershipForTeamIDUsingAppleIDAndPassword
 
+```bash
+sudo serveradmin -x command xcode:command = revokeTeamMembershipForTeamIDUsingAppleIDAndPassword
+```
+
 ## setBotAccess
+
+```bash
+sudo serveradmin -x command xcode:command = setBotAccess
+```
 
 ## setDevelopmentBitOnDeviceWithID
 
+```bash
+sudo serveradmin -x command xcode:command = setDevelopmentBitOnDeviceWithID
+```
+
 ## setLocalRepositoryConfiguration
+
+```bash
+sudo serveradmin -x command xcode:command = setLocalRepositoryConfiguration
+```
 
 ## setLocalRepositoryCreationAccess
 
+```bash
+sudo serveradmin -x command xcode:command = setLocalRepositoryCreationAccess
+```
+
 ## setXcodePath
+
+```bash
+sudo serveradmin -x command xcode:command = setXcodePath
+```
 
 ## shouldConfirmBeforeSetXcodePath
 
+```bash
+sudo serveradmin -x command xcode:command = shouldConfirmBeforeSetXcodePath
+```
+
 ## updateLocalRepository
 
+```bash
+sudo serveradmin -x command xcode:command = updateLocalRepository
+```
+
 ## validateXcodeAtPath
+
+```bash
+sudo serveradmin -x command xcode:command = validateXcodeAtPath
+```
 

@@ -14,7 +14,19 @@
 
 ## logSettings
 
+```bash
+sudo serveradmin -x command firewall:command = logSettings
+```
+
 ## readSettings
 
+```bash
+sudo serveradmin -x command firewall:command = readSettings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command firewall:command = writeSettings
+```
 

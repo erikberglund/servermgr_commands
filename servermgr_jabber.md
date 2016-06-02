@@ -18,15 +18,43 @@
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command jabber:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command jabber:command = getState
+```
 
 ## initialSetup
 
+```bash
+sudo serveradmin -x command jabber:command = initialSetup
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command jabber:command = readSettings
+```
 
 ## setState
 
+```bash
+sudo serveradmin -x command jabber:command = setState
+```
+
 ## tailFile
 
+```bash
+sudo serveradmin -x command jabber:command = tailFile
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command jabber:command = writeSettings
+```
 

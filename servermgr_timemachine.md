@@ -19,17 +19,49 @@
 
 ## deleteBackup
 
+```bash
+sudo serveradmin -x command timemachine:command = deleteBackup
+```
+
 ## deleteBackups
+
+```bash
+sudo serveradmin -x command timemachine:command = deleteBackups
+```
 
 ## enableVolumePermissions
 
+```bash
+sudo serveradmin -x command timemachine:command = enableVolumePermissions
+```
+
 ## getBackups
+
+```bash
+sudo serveradmin -x command timemachine:command = getBackups
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command timemachine:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command timemachine:command = getState
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command timemachine:command = readSettings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command timemachine:command = writeSettings
+```
 

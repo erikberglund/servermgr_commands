@@ -16,11 +16,31 @@
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command documents:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command documents:command = getState
+```
 
 ## initializeService
 
+```bash
+sudo serveradmin -x command documents:command = initializeService
+```
+
 ## readSettings
 
+```bash
+sudo serveradmin -x command documents:command = readSettings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command documents:command = writeSettings
+```
 

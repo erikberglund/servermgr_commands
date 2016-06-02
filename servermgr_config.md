@@ -54,87 +54,259 @@
 
 ## cleanUpGetDNSServersFromDHCPRequest
 
+```bash
+sudo serveradmin -x command config:command = cleanUpGetDNSServersFromDHCPRequest
+```
+
 ## clearDNSCache
+
+```bash
+sudo serveradmin -x command config:command = clearDNSCache
+```
 
 ## configureClientBackup
 
+```bash
+sudo serveradmin -x command config:command = configureClientBackup
+```
+
 ## configureKerberos
+
+```bash
+sudo serveradmin -x command config:command = configureKerberos
+```
 
 ## configureWelcomeEmail
 
+```bash
+sudo serveradmin -x command config:command = configureWelcomeEmail
+```
+
 ## connectToWiFiNetwork
+
+```bash
+sudo serveradmin -x command config:command = connectToWiFiNetwork
+```
 
 ## createServermgrdIdentity
 
+```bash
+sudo serveradmin -x command config:command = createServermgrdIdentity
+```
+
 ## deleteDeletableNetworkServices
+
+```bash
+sudo serveradmin -x command config:command = deleteDeletableNetworkServices
+```
 
 ## enableLocalUserPasswordHashes
 
+```bash
+sudo serveradmin -x command config:command = enableLocalUserPasswordHashes
+```
+
 ## evaluateNetwork
+
+```bash
+sudo serveradmin -x command config:command = evaluateNetwork
+```
 
 ## getAvailableWiFiNetworks
 
+```bash
+sudo serveradmin -x command config:command = getAvailableWiFiNetworks
+```
+
 ## getDNSServersFromDHCP
+
+```bash
+sudo serveradmin -x command config:command = getDNSServersFromDHCP
+```
 
 ## getDeletableNetworkServicesIDs
 
+```bash
+sudo serveradmin -x command config:command = getDeletableNetworkServicesIDs
+```
+
 ## getHostNamesForIPAddress
+
+```bash
+sudo serveradmin -x command config:command = getHostNamesForIPAddress
+```
 
 ## getMXRecordsForHostName
 
+```bash
+sudo serveradmin -x command config:command = getMXRecordsForHostName
+```
+
 ## getNetworkServices
+
+```bash
+sudo serveradmin -x command config:command = getNetworkServices
+```
 
 ## getServermgrdCertifcate
 
+```bash
+sudo serveradmin -x command config:command = getServermgrdCertifcate
+```
+
 ## getSettingNetworkServicesStatus
+
+```bash
+sudo serveradmin -x command config:command = getSettingNetworkServicesStatus
+```
 
 ## getSetupExtrasStatus
 
+```bash
+sudo serveradmin -x command config:command = getSetupExtrasStatus
+```
+
 ## getSetupState
+
+```bash
+sudo serveradmin -x command config:command = getSetupState
+```
 
 ## getSystemProfile
 
+```bash
+sudo serveradmin -x command config:command = getSystemProfile
+```
+
 ## initializeSetup
+
+```bash
+sudo serveradmin -x command config:command = initializeSetup
+```
 
 ## markNetworkServicesAsDeletableAfterSetup
 
+```bash
+sudo serveradmin -x command config:command = markNetworkServicesAsDeletableAfterSetup
+```
+
 ## markSetupCompleted
+
+```bash
+sudo serveradmin -x command config:command = markSetupCompleted
+```
 
 ## readDNSConfiguration
 
+```bash
+sudo serveradmin -x command config:command = readDNSConfiguration
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command config:command = readSettings
+```
 
 ## renewDHCPLease
 
+```bash
+sudo serveradmin -x command config:command = renewDHCPLease
+```
+
 ## resetDeletableNetworkServices
+
+```bash
+sudo serveradmin -x command config:command = resetDeletableNetworkServices
+```
 
 ## resolveHostName
 
+```bash
+sudo serveradmin -x command config:command = resolveHostName
+```
+
 ## runChangeip
+
+```bash
+sudo serveradmin -x command config:command = runChangeip
+```
 
 ## setComputerNames
 
+```bash
+sudo serveradmin -x command config:command = setComputerNames
+```
+
 ## setNetworkServices
+
+```bash
+sudo serveradmin -x command config:command = setNetworkServices
+```
 
 ## setPPPoESettings
 
+```bash
+sudo serveradmin -x command config:command = setPPPoESettings
+```
+
 ## setScreenSharingState
+
+```bash
+sudo serveradmin -x command config:command = setScreenSharingState
+```
 
 ## setServermgrdCertifcate
 
+```bash
+sudo serveradmin -x command config:command = setServermgrdCertifcate
+```
+
 ## setSetupState
+
+```bash
+sudo serveradmin -x command config:command = setSetupState
+```
 
 ## setUpServer
 
+```bash
+sudo serveradmin -x command config:command = setUpServer
+```
+
 ## setXsanControllerProperties
+
+```bash
+sudo serveradmin -x command config:command = setXsanControllerProperties
+```
 
 ## startSetupExtras
 
+```bash
+sudo serveradmin -x command config:command = startSetupExtras
+```
+
 ## threadedSetNetworkServices
+
+```bash
+sudo serveradmin -x command config:command = threadedSetNetworkServices
+```
 
 ## threadedStartSetupExtras
 
+```bash
+sudo serveradmin -x command config:command = threadedStartSetupExtras
+```
+
 ## validateDataStoreLocation
 
+```bash
+sudo serveradmin -x command config:command = validateDataStoreLocation
+```
+
 ## writeXsanControllerConfiguration
+
+```bash
+sudo serveradmin -x command config:command = writeXsanControllerConfiguration
+```
 

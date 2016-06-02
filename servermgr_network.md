@@ -35,49 +35,145 @@
 
 ## cancelIGDTransaction
 
+```bash
+sudo serveradmin -x command network:command = cancelIGDTransaction
+```
+
 ## clearCurrentTransaction
+
+```bash
+sudo serveradmin -x command network:command = clearCurrentTransaction
+```
 
 ## clearIGDPortMappings
 
+```bash
+sudo serveradmin -x command network:command = clearIGDPortMappings
+```
+
 ## commitIGDTransaction
+
+```bash
+sudo serveradmin -x command network:command = commitIGDTransaction
+```
 
 ## getCurrentGatewayInfo
 
+```bash
+sudo serveradmin -x command network:command = getCurrentGatewayInfo
+```
+
 ## getIGDPortMappings
+
+```bash
+sudo serveradmin -x command network:command = getIGDPortMappings
+```
 
 ## getIGDPortmaps
 
+```bash
+sudo serveradmin -x command network:command = getIGDPortmaps
+```
+
 ## getIGDSettings
+
+```bash
+sudo serveradmin -x command network:command = getIGDSettings
+```
 
 ## getIGDTransactionStatus
 
+```bash
+sudo serveradmin -x command network:command = getIGDTransactionStatus
+```
+
 ## getPortMaps
+
+```bash
+sudo serveradmin -x command network:command = getPortMaps
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command network:command = getState
+```
+
 ## manageCurrentIGD
+
+```bash
+sudo serveradmin -x command network:command = manageCurrentIGD
+```
 
 ## openIGDTransaction
 
+```bash
+sudo serveradmin -x command network:command = openIGDTransaction
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command network:command = readSettings
+```
 
 ## restoreIGDPortmaps
 
+```bash
+sudo serveradmin -x command network:command = restoreIGDPortmaps
+```
+
 ## restoreIGDSettings
+
+```bash
+sudo serveradmin -x command network:command = restoreIGDSettings
+```
 
 ## saveIGDPortmaps
 
+```bash
+sudo serveradmin -x command network:command = saveIGDPortmaps
+```
+
 ## saveIGDSettings
+
+```bash
+sudo serveradmin -x command network:command = saveIGDSettings
+```
 
 ## setIGDDNSServers
 
+```bash
+sudo serveradmin -x command network:command = setIGDDNSServers
+```
+
 ## setIGDPasswordForDevice
+
+```bash
+sudo serveradmin -x command network:command = setIGDPasswordForDevice
+```
 
 ## setIGDPortmaps
 
+```bash
+sudo serveradmin -x command network:command = setIGDPortmaps
+```
+
 ## setIGDSettings
+
+```bash
+sudo serveradmin -x command network:command = setIGDSettings
+```
 
 ## syncIGDPortMappings
 
+```bash
+sudo serveradmin -x command network:command = syncIGDPortMappings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command network:command = writeSettings
+```
 

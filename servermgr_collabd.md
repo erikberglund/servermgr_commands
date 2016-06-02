@@ -19,17 +19,49 @@
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command collabd:command = getLogPaths
+```
+
 ## getMoveDataLocationProgress
+
+```bash
+sudo serveradmin -x command collabd:command = getMoveDataLocationProgress
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command collabd:command = getState
+```
+
 ## initialSetup
+
+```bash
+sudo serveradmin -x command collabd:command = initialSetup
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command collabd:command = readSettings
+```
+
 ## startMoveDataLocation
+
+```bash
+sudo serveradmin -x command collabd:command = startMoveDataLocation
+```
 
 ## testDataLocationChange
 
+```bash
+sudo serveradmin -x command collabd:command = testDataLocationChange
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command collabd:command = writeSettings
+```
 

@@ -24,27 +24,79 @@
 
 ## flushCache
 
+```bash
+sudo serveradmin -x command caching:command = flushCache
+```
+
 ## flushCacheIfNeeded
+
+```bash
+sudo serveradmin -x command caching:command = flushCacheIfNeeded
+```
 
 ## flushPersonalCache
 
+```bash
+sudo serveradmin -x command caching:command = flushPersonalCache
+```
+
 ## flushSharedCache
+
+```bash
+sudo serveradmin -x command caching:command = flushSharedCache
+```
 
 ## getHistory
 
+```bash
+sudo serveradmin -x command caching:command = getHistory
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command caching:command = getLogPaths
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command caching:command = getState
+```
+
 ## initialSetup
+
+```bash
+sudo serveradmin -x command caching:command = initialSetup
+```
 
 ## makeDNSTXTRecords
 
+```bash
+sudo serveradmin -x command caching:command = makeDNSTXTRecords
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command caching:command = readSettings
+```
 
 ## removedOldData
 
+```bash
+sudo serveradmin -x command caching:command = removedOldData
+```
+
 ## tailFile
 
+```bash
+sudo serveradmin -x command caching:command = tailFile
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command caching:command = writeSettings
+```
 

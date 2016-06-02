@@ -17,13 +17,37 @@
 
 ## deleteLeases
 
+```bash
+sudo serveradmin -x command dhcp:command = deleteLeases
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command dhcp:command = getLogPaths
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command dhcp:command = getState
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command dhcp:command = readSettings
+```
 
 ## tailFile
 
+```bash
+sudo serveradmin -x command dhcp:command = tailFile
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command dhcp:command = writeSettings
+```
 

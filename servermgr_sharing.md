@@ -23,25 +23,73 @@
 
 ## canAuthDSNode
 
+```bash
+sudo serveradmin -x command sharing:command = canAuthDSNode
+```
+
 ## fileInheritACL
+
+```bash
+sudo serveradmin -x command sharing:command = fileInheritACL
+```
 
 ## getConnectedUserCounts
 
+```bash
+sudo serveradmin -x command sharing:command = getConnectedUserCounts
+```
+
 ## getDSNodes
+
+```bash
+sudo serveradmin -x command sharing:command = getDSNodes
+```
 
 ## getEffectivePerms
 
+```bash
+sudo serveradmin -x command sharing:command = getEffectivePerms
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command sharing:command = getLogPaths
+```
 
 ## getSharePointList
 
+```bash
+sudo serveradmin -x command sharing:command = getSharePointList
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command sharing:command = getState
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command sharing:command = readSettings
+```
+
 ## startPropagate
+
+```bash
+sudo serveradmin -x command sharing:command = startPropagate
+```
 
 ## statusCopyPrivs
 
+```bash
+sudo serveradmin -x command sharing:command = statusCopyPrivs
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command sharing:command = writeSettings
+```
 

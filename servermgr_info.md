@@ -33,45 +33,133 @@
 
 ## cancelGetFileSizes
 
+```bash
+sudo serveradmin -x command info:command = cancelGetFileSizes
+```
+
 ## getApplicationConfig
+
+```bash
+sudo serveradmin -x command info:command = getApplicationConfig
+```
 
 ## getCopyFilesProgress
 
+```bash
+sudo serveradmin -x command info:command = getCopyFilesProgress
+```
+
 ## getExistingLogFiles
+
+```bash
+sudo serveradmin -x command info:command = getExistingLogFiles
+```
 
 ## getFileSizes
 
+```bash
+sudo serveradmin -x command info:command = getFileSizes
+```
+
 ## getFileSizesProgress
+
+```bash
+sudo serveradmin -x command info:command = getFileSizesProgress
+```
 
 ## getHardwareInfo
 
+```bash
+sudo serveradmin -x command info:command = getHardwareInfo
+```
+
 ## getHistory
+
+```bash
+sudo serveradmin -x command info:command = getHistory
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command info:command = getLogPaths
+```
+
 ## getRemoveFilesProgress
+
+```bash
+sudo serveradmin -x command info:command = getRemoveFilesProgress
+```
 
 ## getRestartServermgrdStatus
 
+```bash
+sudo serveradmin -x command info:command = getRestartServermgrdStatus
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command info:command = getState
+```
 
 ## getSystemLogPaths
 
+```bash
+sudo serveradmin -x command info:command = getSystemLogPaths
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command info:command = readSettings
+```
 
 ## removeFiles
 
+```bash
+sudo serveradmin -x command info:command = removeFiles
+```
+
 ## sendDiagnosticDataToApple
+
+```bash
+sudo serveradmin -x command info:command = sendDiagnosticDataToApple
+```
 
 ## setApplicationConfig
 
+```bash
+sudo serveradmin -x command info:command = setApplicationConfig
+```
+
 ## setPluginLogging
+
+```bash
+sudo serveradmin -x command info:command = setPluginLogging
+```
 
 ## startCopyFiles
 
+```bash
+sudo serveradmin -x command info:command = startCopyFiles
+```
+
 ## tailFile
+
+```bash
+sudo serveradmin -x command info:command = tailFile
+```
 
 ## updateServermgrCert
 
+```bash
+sudo serveradmin -x command info:command = updateServermgrCert
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command info:command = writeSettings
+```
 

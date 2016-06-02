@@ -17,13 +17,37 @@
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command ftp:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command ftp:command = getState
+```
 
 ## initialSetup
 
+```bash
+sudo serveradmin -x command ftp:command = initialSetup
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command ftp:command = readSettings
+```
 
 ## restoreFactorySettings
 
+```bash
+sudo serveradmin -x command ftp:command = restoreFactorySettings
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command ftp:command = writeSettings
+```
 

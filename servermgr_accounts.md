@@ -32,43 +32,127 @@
 
 ## authCredentials
 
+```bash
+sudo serveradmin -x command accounts:command = authCredentials
+```
+
 ## createBasicSACLGroups
+
+```bash
+sudo serveradmin -x command accounts:command = createBasicSACLGroups
+```
 
 ## createDefaultGroup
 
+```bash
+sudo serveradmin -x command accounts:command = createDefaultGroup
+```
+
 ## createGroup
+
+```bash
+sudo serveradmin -x command accounts:command = createGroup
+```
 
 ## createUser
 
+```bash
+sudo serveradmin -x command accounts:command = createUser
+```
+
 ## deleteGroup
+
+```bash
+sudo serveradmin -x command accounts:command = deleteGroup
+```
 
 ## deleteUser
 
+```bash
+sudo serveradmin -x command accounts:command = deleteUser
+```
+
 ## doProcessInput
+
+```bash
+sudo serveradmin -x command accounts:command = doProcessInput
+```
 
 ## getGroupAttributes
 
+```bash
+sudo serveradmin -x command accounts:command = getGroupAttributes
+```
+
 ## getGroupList
+
+```bash
+sudo serveradmin -x command accounts:command = getGroupList
+```
 
 ## getImportList
 
+```bash
+sudo serveradmin -x command accounts:command = getImportList
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command accounts:command = getState
+```
 
 ## getUserAttributes
 
+```bash
+sudo serveradmin -x command accounts:command = getUserAttributes
+```
+
 ## getUserList
+
+```bash
+sudo serveradmin -x command accounts:command = getUserList
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command accounts:command = readSettings
+```
+
 ## setGroupAttributes
+
+```bash
+sudo serveradmin -x command accounts:command = setGroupAttributes
+```
 
 ## setMembership
 
+```bash
+sudo serveradmin -x command accounts:command = setMembership
+```
+
 ## setUserAttributes
+
+```bash
+sudo serveradmin -x command accounts:command = setUserAttributes
+```
 
 ## systemKeychainReady
 
+```bash
+sudo serveradmin -x command accounts:command = systemKeychainReady
+```
+
 ## updateDefaultGroup
 
+```bash
+sudo serveradmin -x command accounts:command = updateDefaultGroup
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command accounts:command = writeSettings
+```
 

@@ -29,37 +29,109 @@
 
 ## activateAPNS
 
+```bash
+sudo serveradmin -x command devicemgr:command = activateAPNS
+```
+
 ## activateOD
+
+```bash
+sudo serveradmin -x command devicemgr:command = activateOD
+```
 
 ## certificateUpdated
 
+```bash
+sudo serveradmin -x command devicemgr:command = certificateUpdated
+```
+
 ## configureAppDistribution
+
+```bash
+sudo serveradmin -x command devicemgr:command = configureAppDistribution
+```
 
 ## configureSimplifiedDeviceEnrollment
 
+```bash
+sudo serveradmin -x command devicemgr:command = configureSimplifiedDeviceEnrollment
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command devicemgr:command = getLogPaths
+```
 
 ## getMoveDataLocationProgress
 
+```bash
+sudo serveradmin -x command devicemgr:command = getMoveDataLocationProgress
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command devicemgr:command = getState
+```
 
 ## getTokenEncryptionCertificate
 
+```bash
+sudo serveradmin -x command devicemgr:command = getTokenEncryptionCertificate
+```
+
 ## readAppDistributionSettings
+
+```bash
+sudo serveradmin -x command devicemgr:command = readAppDistributionSettings
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command devicemgr:command = readSettings
+```
+
 ## readSimplifiedDeviceEnrollmentSettings
+
+```bash
+sudo serveradmin -x command devicemgr:command = readSimplifiedDeviceEnrollmentSettings
+```
 
 ## reloadApacheConfig
 
+```bash
+sudo serveradmin -x command devicemgr:command = reloadApacheConfig
+```
+
 ## setEmailAccountSettings
+
+```bash
+sudo serveradmin -x command devicemgr:command = setEmailAccountSettings
+```
 
 ## setODMaster
 
+```bash
+sudo serveradmin -x command devicemgr:command = setODMaster
+```
+
 ## setSSLState
+
+```bash
+sudo serveradmin -x command devicemgr:command = setSSLState
+```
 
 ## startMoveDataLocation
 
+```bash
+sudo serveradmin -x command devicemgr:command = startMoveDataLocation
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command devicemgr:command = writeSettings
+```
 

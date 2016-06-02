@@ -22,23 +22,67 @@
 
 ## addClients
 
+```bash
+sudo serveradmin -x command radius:command = addClients
+```
+
 ## captureBaseStation
+
+```bash
+sudo serveradmin -x command radius:command = captureBaseStation
+```
 
 ## getAirportList
 
+```bash
+sudo serveradmin -x command radius:command = getAirportList
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command radius:command = getLogPaths
+```
 
 ## getSSID
 
+```bash
+sudo serveradmin -x command radius:command = getSSID
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command radius:command = getState
+```
 
 ## nasAvailableList
 
+```bash
+sudo serveradmin -x command radius:command = nasAvailableList
+```
+
 ## readProgress
+
+```bash
+sudo serveradmin -x command radius:command = readProgress
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command radius:command = readSettings
+```
+
 ## removeClients
 
+```bash
+sudo serveradmin -x command radius:command = removeClients
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command radius:command = writeSettings
+```
 

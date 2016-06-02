@@ -20,19 +20,55 @@
 
 ## disconnectUsers
 
+```bash
+sudo serveradmin -x command afp:command = disconnectUsers
+```
+
 ## getConnectedUsers
+
+```bash
+sudo serveradmin -x command afp:command = getConnectedUsers
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command afp:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command afp:command = getState
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command afp:command = readSettings
+```
+
 ## sendMessage
+
+```bash
+sudo serveradmin -x command afp:command = sendMessage
+```
 
 ## setState
 
+```bash
+sudo serveradmin -x command afp:command = setState
+```
+
 ## syncSharePoints
 
+```bash
+sudo serveradmin -x command afp:command = syncSharePoints
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command afp:command = writeSettings
+```
 

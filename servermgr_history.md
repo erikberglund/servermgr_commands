@@ -13,5 +13,13 @@
 
 ## getMetricValuesBetweenDates
 
+```bash
+sudo serveradmin -x command history:command = getMetricValuesBetweenDates
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command history:command = getState
+```
 

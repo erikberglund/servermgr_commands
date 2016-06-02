@@ -21,21 +21,61 @@
 
 ## createDefaultConfigProfile
 
+```bash
+sudo serveradmin -x command vpn:command = createDefaultConfigProfile
+```
+
 ## createVPNKeyAgentUser
+
+```bash
+sudo serveradmin -x command vpn:command = createVPNKeyAgentUser
+```
 
 ## customizeUserProfile
 
+```bash
+sudo serveradmin -x command vpn:command = customizeUserProfile
+```
+
 ## getConnectedUsers
+
+```bash
+sudo serveradmin -x command vpn:command = getConnectedUsers
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command vpn:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command vpn:command = getState
+```
 
 ## initialSetup
 
+```bash
+sudo serveradmin -x command vpn:command = initialSetup
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command vpn:command = readSettings
+```
 
 ## updateVPNKeyAgentUser
 
+```bash
+sudo serveradmin -x command vpn:command = updateVPNKeyAgentUser
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command vpn:command = writeSettings
+```
 

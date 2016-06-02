@@ -34,13 +34,13 @@ create_folder() {
                 printf "%s %s\n" "[${FUNCNAME}]" "Folder exist but current user ($( /usr/bin/id -un )) don't have write permissions."
             fi
         
-        # Check if folder path exists and is a file, exit with error
+            # Check if folder path exists and is a file, exit with error
         elif [[ -f ${create_folder_folder} ]]; then
             printf "%s %s\n" "[$( basename ${BASH_SOURCE[0]}):${FUNCNAME}:${LINENO}]" "Unable to create folder: ${create_folder_folder}" >&2
             printf "%s %s\n" "[$( basename ${BASH_SOURCE[0]}):${FUNCNAME}:${LINENO}]" "A file already exist at path" >&2
             exit 1
             
-        # If passed all checks and folder doesn't exist, create it
+            # If passed all checks and folder doesn't exist, create it
         else
             create_folder_mkdir_output=$( /bin/mkdir -p "${create_folder_folder/#\~/$HOME}" 2>&1 )
             if (( ${?} == 0 )); then
@@ -67,34 +67,41 @@ fi
 for bundle in "${path_servermgr_bundles}"/*; do
     
     # Get path to current bundle binary
-    bundle_binary="${bundle}/Contents/MacOS/$( basename ${bundle%.*} )"
-    if ! [[ -f ${bundle_binary} ]]; then
+    path_bundle_binary="${bundle}/Contents/MacOS/$( basename ${bundle%.*} )"
+    if ! [[ -f ${path_bundle_binary} ]]; then
         printf "%s\n" "Found no binary for bundle: ${bundle}"
         continue
     fi
     
     # Get path to current bundle output file
-    path_output_file_bundle="${path_output_folder}/${bundle_binary##*/}.md"
+    path_output_file_bundle="${path_output_folder}/${path_bundle_binary##*/}.md"
     
     # Print header information
     {
-        printf "%s\n\n" "# ${bundle_binary##*/}"
+        printf "%s\n\n" "# ${path_bundle_binary##*/}"
         printf "%s\n" '```console'
-        printf "%s\n" "${bundle_binary}"
+        printf "%s\n" "${path_bundle_binary}"
         printf "%s\n\n" '```'
         printf "%s\n\n" "# Commands"
     } > "${path_output_file_bundle}"
     
-    bundle_command_description_titles=()
+    bundle_commands=()
     
     # Loop through all parsed commands from bundle binary
     while read bundle_command; do
         printf "%s\n" "* [${bundle_command}](${github_base_url}/${path_output_file_bundle##*/}#$( tr '[:upper:]' '[:lower:]' <<< ${bundle_command} ))" >> "${path_output_file_bundle}"
-        bundle_command_description_titles+=("## ${bundle_command}")
-    done < <( strings "${bundle_binary}" | sed -nE 's/^\ ?([a-zA-Z]*)WithRequest:.*/\1/p' | awk '!/^init$/' | sort | uniq )
+        bundle_commands+=("${bundle_command}")
+    done < <( strings "${path_bundle_binary}" | sed -nE 's/^\ ?([a-zA-Z]*)WithRequest:.*/\1/p' | awk '!/^init$/' | sort | uniq )
     
     printf "\n%s\n\n" "# Command Descriptions" >> "${path_output_file_bundle}"
-    printf "%s\n\n" "${bundle_command_description_titles[@]}" >> "${path_output_file_bundle}"
+    while read bundle_command; do
+        {
+            printf "%s\n\n" "## ${bundle_command}"
+            printf "%s\n" '```bash'
+            printf "%s\n" "sudo serveradmin -x command $( basename ${path_bundle_binary##*_}):command = ${bundle_command}"
+            printf "%s\n\n" '```'
+        } >> "${path_output_file_bundle}"
+    done < <( printf "%s\n" "${bundle_commands[@]}" )
 done
 
 exit 0

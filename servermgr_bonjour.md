@@ -12,3 +12,7 @@
 
 ## getBonjourInstanceNames
 
+```bash
+sudo serveradmin -x command bonjour:command = getBonjourInstanceNames
+```
+

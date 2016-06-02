@@ -14,7 +14,19 @@
 
 ## fireHomeDirsCreation
 
+```bash
+sudo serveradmin -x command signaler:command = fireHomeDirsCreation
+```
+
 ## getState
 
+```bash
+sudo serveradmin -x command signaler:command = getState
+```
+
 ## setUserQuotas
+
+```bash
+sudo serveradmin -x command signaler:command = setUserQuotas
+```
 

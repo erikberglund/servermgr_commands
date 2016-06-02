@@ -19,17 +19,49 @@
 
 ## clearAlerts
 
+```bash
+sudo serveradmin -x command alerts:command = clearAlerts
+```
+
 ## getAlerts
+
+```bash
+sudo serveradmin -x command alerts:command = getAlerts
+```
 
 ## markAlertAsRead
 
+```bash
+sudo serveradmin -x command alerts:command = markAlertAsRead
+```
+
 ## markAlertAsResolved
+
+```bash
+sudo serveradmin -x command alerts:command = markAlertAsResolved
+```
 
 ## performRecoveryAction
 
+```bash
+sudo serveradmin -x command alerts:command = performRecoveryAction
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command alerts:command = readSettings
+```
 
 ## sendTestAlert
 
+```bash
+sudo serveradmin -x command alerts:command = sendTestAlert
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command alerts:command = writeSettings
+```
 

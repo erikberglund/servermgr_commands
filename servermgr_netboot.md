@@ -17,13 +17,37 @@
 
 ## getConfigState
 
+```bash
+sudo serveradmin -x command netboot:command = getConfigState
+```
+
 ## getLogPaths
+
+```bash
+sudo serveradmin -x command netboot:command = getLogPaths
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command netboot:command = getState
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command netboot:command = readSettings
+```
 
 ## tailFile
 
+```bash
+sudo serveradmin -x command netboot:command = tailFile
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command netboot:command = writeSettings
+```
 

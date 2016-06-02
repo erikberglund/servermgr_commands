@@ -24,27 +24,79 @@
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command web:command = getLogPaths
+```
+
 ## getSites
+
+```bash
+sudo serveradmin -x command web:command = getSites
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command web:command = getState
+```
+
 ## getWebAppState
+
+```bash
+sudo serveradmin -x command web:command = getWebAppState
+```
 
 ## getWebApps
 
+```bash
+sudo serveradmin -x command web:command = getWebApps
+```
+
 ## getWebDAVSharingState
+
+```bash
+sudo serveradmin -x command web:command = getWebDAVSharingState
+```
 
 ## initialSetup
 
+```bash
+sudo serveradmin -x command web:command = initialSetup
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command web:command = readSettings
+```
 
 ## restoreFactorySettings
 
+```bash
+sudo serveradmin -x command web:command = restoreFactorySettings
+```
+
 ## setState
+
+```bash
+sudo serveradmin -x command web:command = setState
+```
 
 ## setWebAppState
 
+```bash
+sudo serveradmin -x command web:command = setWebAppState
+```
+
 ## setWebDAVSharingState
 
+```bash
+sudo serveradmin -x command web:command = setWebDAVSharingState
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command web:command = writeSettings
+```
 

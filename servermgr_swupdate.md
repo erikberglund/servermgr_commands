@@ -19,17 +19,49 @@
 
 ## CheckNow
 
+```bash
+sudo serveradmin -x command swupdate:command = CheckNow
+```
+
 ## CopyNow
+
+```bash
+sudo serveradmin -x command swupdate:command = CopyNow
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command swupdate:command = getLogPaths
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command swupdate:command = getState
+```
 
 ## initialSetup
 
+```bash
+sudo serveradmin -x command swupdate:command = initialSetup
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command swupdate:command = readSettings
+```
 
 ## upgradeConfig
 
+```bash
+sudo serveradmin -x command swupdate:command = upgradeConfig
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command swupdate:command = writeSettings
+```
 

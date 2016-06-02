@@ -22,23 +22,67 @@
 
 ## getDirectoryEntries
 
+```bash
+sudo serveradmin -x command filebrowser:command = getDirectoryEntries
+```
+
 ## getIconsForPaths
+
+```bash
+sudo serveradmin -x command filebrowser:command = getIconsForPaths
+```
 
 ## getOpenDirectoryRecords
 
+```bash
+sudo serveradmin -x command filebrowser:command = getOpenDirectoryRecords
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command filebrowser:command = getState
+```
 
 ## getVolumeList
 
+```bash
+sudo serveradmin -x command filebrowser:command = getVolumeList
+```
+
 ## newFolder
+
+```bash
+sudo serveradmin -x command filebrowser:command = newFolder
+```
 
 ## nfsMount
 
+```bash
+sudo serveradmin -x command filebrowser:command = nfsMount
+```
+
 ## nfsStatusMount
+
+```bash
+sudo serveradmin -x command filebrowser:command = nfsStatusMount
+```
 
 ## nfsUnMount
 
+```bash
+sudo serveradmin -x command filebrowser:command = nfsUnMount
+```
+
 ## nfsWriteMountRec
 
+```bash
+sudo serveradmin -x command filebrowser:command = nfsWriteMountRec
+```
+
 ## refresh
+
+```bash
+sudo serveradmin -x command filebrowser:command = refresh
+```
 

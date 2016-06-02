@@ -35,49 +35,145 @@
 
 ## activateSAN
 
+```bash
+sudo serveradmin -x command san:command = activateSAN
+```
+
 ## browseControllers
+
+```bash
+sudo serveradmin -x command san:command = browseControllers
+```
 
 ## buildOrJoinSAN
 
+```bash
+sudo serveradmin -x command san:command = buildOrJoinSAN
+```
+
 ## createSAN
+
+```bash
+sudo serveradmin -x command san:command = createSAN
+```
 
 ## createVolume
 
+```bash
+sudo serveradmin -x command san:command = createVolume
+```
+
 ## deleteVolume
+
+```bash
+sudo serveradmin -x command san:command = deleteVolume
+```
 
 ## destroySAN
 
+```bash
+sudo serveradmin -x command san:command = destroySAN
+```
+
 ## editVolume
+
+```bash
+sudo serveradmin -x command san:command = editVolume
+```
 
 ## eraseVolume
 
+```bash
+sudo serveradmin -x command san:command = eraseVolume
+```
+
 ## getLUNs
+
+```bash
+sudo serveradmin -x command san:command = getLUNs
+```
 
 ## getLogPaths
 
+```bash
+sudo serveradmin -x command san:command = getLogPaths
+```
+
 ## getSANConfig
+
+```bash
+sudo serveradmin -x command san:command = getSANConfig
+```
 
 ## getState
 
+```bash
+sudo serveradmin -x command san:command = getState
+```
+
 ## getVolumeState
+
+```bash
+sudo serveradmin -x command san:command = getVolumeState
+```
 
 ## identifyLUNs
 
+```bash
+sudo serveradmin -x command san:command = identifyLUNs
+```
+
 ## joinSAN
+
+```bash
+sudo serveradmin -x command san:command = joinSAN
+```
 
 ## labelLUNs
 
+```bash
+sudo serveradmin -x command san:command = labelLUNs
+```
+
 ## preflightMakeController
+
+```bash
+sudo serveradmin -x command san:command = preflightMakeController
+```
 
 ## readSettings
 
+```bash
+sudo serveradmin -x command san:command = readSettings
+```
+
 ## readVolumeProgress
+
+```bash
+sudo serveradmin -x command san:command = readVolumeProgress
+```
 
 ## removeControllers
 
+```bash
+sudo serveradmin -x command san:command = removeControllers
+```
+
 ## renameVolume
+
+```bash
+sudo serveradmin -x command san:command = renameVolume
+```
 
 ## setVolumeState
 
+```bash
+sudo serveradmin -x command san:command = setVolumeState
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command san:command = writeSettings
+```
 

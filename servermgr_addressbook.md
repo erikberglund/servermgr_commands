@@ -15,9 +15,25 @@
 
 ## getState
 
+```bash
+sudo serveradmin -x command addressbook:command = getState
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command addressbook:command = readSettings
+```
 
 ## setState
 
+```bash
+sudo serveradmin -x command addressbook:command = setState
+```
+
 ## writeSettings
+
+```bash
+sudo serveradmin -x command addressbook:command = writeSettings
+```
 

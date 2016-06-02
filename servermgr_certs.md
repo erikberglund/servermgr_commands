@@ -49,77 +49,229 @@
 
 ## acquirePushCertificate
 
+```bash
+sudo serveradmin -x command certs:command = acquirePushCertificate
+```
+
 ## cancelPushCertificate
+
+```bash
+sudo serveradmin -x command certs:command = cancelPushCertificate
+```
 
 ## certificatesNeedingRenewal
 
+```bash
+sudo serveradmin -x command certs:command = certificatesNeedingRenewal
+```
+
 ## createCertificateSigningRequest
+
+```bash
+sudo serveradmin -x command certs:command = createCertificateSigningRequest
+```
 
 ## createDefaultSelfSignedIdentity
 
+```bash
+sudo serveradmin -x command certs:command = createDefaultSelfSignedIdentity
+```
+
 ## createInitialPushIdentities
+
+```bash
+sudo serveradmin -x command certs:command = createInitialPushIdentities
+```
 
 ## createODSignedIdentity
 
+```bash
+sudo serveradmin -x command certs:command = createODSignedIdentity
+```
+
 ## createSelfSignedIdentity
+
+```bash
+sudo serveradmin -x command certs:command = createSelfSignedIdentity
+```
 
 ## deleteCertificateSigningRequest
 
+```bash
+sudo serveradmin -x command certs:command = deleteCertificateSigningRequest
+```
+
 ## deleteIdentity
+
+```bash
+sudo serveradmin -x command certs:command = deleteIdentity
+```
 
 ## exportAllIdentities
 
+```bash
+sudo serveradmin -x command certs:command = exportAllIdentities
+```
+
 ## exportDirectory
+
+```bash
+sudo serveradmin -x command certs:command = exportDirectory
+```
 
 ## exportIdentity
 
+```bash
+sudo serveradmin -x command certs:command = exportIdentity
+```
+
 ## exportPathsForIdentity
+
+```bash
+sudo serveradmin -x command certs:command = exportPathsForIdentity
+```
 
 ## fingerprintForIdentity
 
+```bash
+sudo serveradmin -x command certs:command = fingerprintForIdentity
+```
+
 ## getPushCertificateStatus
+
+```bash
+sudo serveradmin -x command certs:command = getPushCertificateStatus
+```
 
 ## getPushTopicForPreferredIdentityName
 
+```bash
+sudo serveradmin -x command certs:command = getPushTopicForPreferredIdentityName
+```
+
 ## getState
+
+```bash
+sudo serveradmin -x command certs:command = getState
+```
 
 ## importCertificates
 
+```bash
+sudo serveradmin -x command certs:command = importCertificates
+```
+
 ## importIdentity
+
+```bash
+sudo serveradmin -x command certs:command = importIdentity
+```
 
 ## initialSetup
 
+```bash
+sudo serveradmin -x command certs:command = initialSetup
+```
+
 ## isODCAPresent
+
+```bash
+sudo serveradmin -x command certs:command = isODCAPresent
+```
 
 ## migrateLegacyAccess
 
+```bash
+sudo serveradmin -x command certs:command = migrateLegacyAccess
+```
+
 ## passphraseForExportedPrivateKey
+
+```bash
+sudo serveradmin -x command certs:command = passphraseForExportedPrivateKey
+```
 
 ## readCertificateSigningRequests
 
+```bash
+sudo serveradmin -x command certs:command = readCertificateSigningRequests
+```
+
 ## readDefaultIdentity
+
+```bash
+sudo serveradmin -x command certs:command = readDefaultIdentity
+```
 
 ## readIdentity
 
+```bash
+sudo serveradmin -x command certs:command = readIdentity
+```
+
 ## readIdentityCertificates
+
+```bash
+sudo serveradmin -x command certs:command = readIdentityCertificates
+```
 
 ## readODIdentities
 
+```bash
+sudo serveradmin -x command certs:command = readODIdentities
+```
+
 ## readSettings
+
+```bash
+sudo serveradmin -x command certs:command = readSettings
+```
 
 ## renewIdentity
 
+```bash
+sudo serveradmin -x command certs:command = renewIdentity
+```
+
 ## renewPushCertificate
+
+```bash
+sudo serveradmin -x command certs:command = renewPushCertificate
+```
 
 ## sendPushCertificateSigningRequest
 
+```bash
+sudo serveradmin -x command certs:command = sendPushCertificateSigningRequest
+```
+
 ## sendPushEmailConfirmationRequest
+
+```bash
+sudo serveradmin -x command certs:command = sendPushEmailConfirmationRequest
+```
 
 ## setState
 
+```bash
+sudo serveradmin -x command certs:command = setState
+```
+
 ## startIfNeeded
+
+```bash
+sudo serveradmin -x command certs:command = startIfNeeded
+```
 
 ## updateIdentityWithCertificate
 
+```bash
+sudo serveradmin -x command certs:command = updateIdentityWithCertificate
+```
+
 ## validateCertificate
+
+```bash
+sudo serveradmin -x command certs:command = validateCertificate
+```
 
