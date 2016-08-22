@@ -35,11 +35,17 @@
 sudo serveradmin -x command dirserv:command = backupArchive
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## changeip
 
 ```bash
 sudo serveradmin -x command dirserv:command = changeip
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## checkHostName
 
@@ -47,11 +53,17 @@ sudo serveradmin -x command dirserv:command = changeip
 sudo serveradmin -x command dirserv:command = checkHostName
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createRootCA
 
 ```bash
 sudo serveradmin -x command dirserv:command = createRootCA
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createServicePrincipals
 
@@ -59,11 +71,17 @@ sudo serveradmin -x command dirserv:command = createRootCA
 sudo serveradmin -x command dirserv:command = createServicePrincipals
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## disableAuthMechs
 
 ```bash
 sudo serveradmin -x command dirserv:command = disableAuthMechs
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## enableAuthMechs
 
@@ -71,11 +89,17 @@ sudo serveradmin -x command dirserv:command = disableAuthMechs
 sudo serveradmin -x command dirserv:command = enableAuthMechs
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command dirserv:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -83,11 +107,17 @@ sudo serveradmin -x command dirserv:command = getLogPaths
 sudo serveradmin -x command dirserv:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## joinKerb
 
 ```bash
 sudo serveradmin -x command dirserv:command = joinKerb
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## preflightMasterCreation
 
@@ -95,11 +125,17 @@ sudo serveradmin -x command dirserv:command = joinKerb
 sudo serveradmin -x command dirserv:command = preflightMasterCreation
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## preflightReplicaCreation
 
 ```bash
 sudo serveradmin -x command dirserv:command = preflightReplicaCreation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## preflightReplicaDecommission
 
@@ -107,11 +143,17 @@ sudo serveradmin -x command dirserv:command = preflightReplicaCreation
 sudo serveradmin -x command dirserv:command = preflightReplicaDecommission
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## preflightReplicaPromotion
 
 ```bash
 sudo serveradmin -x command dirserv:command = preflightReplicaPromotion
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readEnabledAuthMechs
 
@@ -119,11 +161,17 @@ sudo serveradmin -x command dirserv:command = preflightReplicaPromotion
 sudo serveradmin -x command dirserv:command = readEnabledAuthMechs
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readProgress
 
 ```bash
 sudo serveradmin -x command dirserv:command = readProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -131,11 +179,17 @@ sudo serveradmin -x command dirserv:command = readProgress
 sudo serveradmin -x command dirserv:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readTreeSettings
 
 ```bash
 sudo serveradmin -x command dirserv:command = readTreeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## restoreArchive
 
@@ -143,9 +197,15 @@ sudo serveradmin -x command dirserv:command = readTreeSettings
 sudo serveradmin -x command dirserv:command = restoreArchive
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command dirserv:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

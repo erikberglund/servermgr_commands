@@ -61,11 +61,17 @@
 sudo serveradmin -x command mail:command = addDomainMembers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createDomain
 
 ```bash
 sudo serveradmin -x command mail:command = createDomain
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## customizeUserProfile
 
@@ -73,11 +79,17 @@ sudo serveradmin -x command mail:command = createDomain
 sudo serveradmin -x command mail:command = customizeUserProfile
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteAccount
 
 ```bash
 sudo serveradmin -x command mail:command = deleteAccount
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## deleteDomain
 
@@ -85,11 +97,17 @@ sudo serveradmin -x command mail:command = deleteAccount
 sudo serveradmin -x command mail:command = deleteDomain
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteDomainMembers
 
 ```bash
 sudo serveradmin -x command mail:command = deleteDomainMembers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## deleteGroups
 
@@ -97,11 +115,17 @@ sudo serveradmin -x command mail:command = deleteDomainMembers
 sudo serveradmin -x command mail:command = deleteGroups
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteMessage
 
 ```bash
 sudo serveradmin -x command mail:command = deleteMessage
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## disableSystemUser
 
@@ -109,11 +133,17 @@ sudo serveradmin -x command mail:command = deleteMessage
 sudo serveradmin -x command mail:command = disableSystemUser
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## doMigrateMembers
 
 ```bash
 sudo serveradmin -x command mail:command = doMigrateMembers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## doNoop
 
@@ -121,11 +151,17 @@ sudo serveradmin -x command mail:command = doMigrateMembers
 sudo serveradmin -x command mail:command = doNoop
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## doPeriodicTask
 
 ```bash
 sudo serveradmin -x command mail:command = doPeriodicTask
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## doResetDomainCache
 
@@ -133,11 +169,17 @@ sudo serveradmin -x command mail:command = doPeriodicTask
 sudo serveradmin -x command mail:command = doResetDomainCache
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## doStatusCheck
 
 ```bash
 sudo serveradmin -x command mail:command = doStatusCheck
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## enableSystemUser
 
@@ -145,11 +187,17 @@ sudo serveradmin -x command mail:command = doStatusCheck
 sudo serveradmin -x command mail:command = enableSystemUser
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getAltDataStore
 
 ```bash
 sudo serveradmin -x command mail:command = getAltDataStore
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getAutoForward
 
@@ -157,11 +205,17 @@ sudo serveradmin -x command mail:command = getAltDataStore
 sudo serveradmin -x command mail:command = getAutoForward
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getConnectedUsers
 
 ```bash
 sudo serveradmin -x command mail:command = getConnectedUsers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getDomainMembers
 
@@ -169,11 +223,17 @@ sudo serveradmin -x command mail:command = getConnectedUsers
 sudo serveradmin -x command mail:command = getDomainMembers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getEmailHost
 
 ```bash
 sudo serveradmin -x command mail:command = getEmailHost
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getListSettings
 
@@ -181,11 +241,17 @@ sudo serveradmin -x command mail:command = getEmailHost
 sudo serveradmin -x command mail:command = getListSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command mail:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getMailQueue
 
@@ -193,11 +259,17 @@ sudo serveradmin -x command mail:command = getLogPaths
 sudo serveradmin -x command mail:command = getMailQueue
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getMaintenance
 
 ```bash
 sudo serveradmin -x command mail:command = getMaintenance
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -205,11 +277,17 @@ sudo serveradmin -x command mail:command = getMaintenance
 sudo serveradmin -x command mail:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getUserAccounts
 
 ```bash
 sudo serveradmin -x command mail:command = getUserAccounts
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getUserAttributes
 
@@ -217,11 +295,17 @@ sudo serveradmin -x command mail:command = getUserAccounts
 sudo serveradmin -x command mail:command = getUserAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## initialSetup
 
 ```bash
 sudo serveradmin -x command mail:command = initialSetup
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## mergeMailAccount
 
@@ -229,11 +313,17 @@ sudo serveradmin -x command mail:command = initialSetup
 sudo serveradmin -x command mail:command = mergeMailAccount
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## moveMailAccount
 
 ```bash
 sudo serveradmin -x command mail:command = moveMailAccount
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -241,11 +331,17 @@ sudo serveradmin -x command mail:command = moveMailAccount
 sudo serveradmin -x command mail:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## renameDomain
 
 ```bash
 sudo serveradmin -x command mail:command = renameDomain
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## retryMessage
 
@@ -253,11 +349,17 @@ sudo serveradmin -x command mail:command = renameDomain
 sudo serveradmin -x command mail:command = retryMessage
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setAltDataStore
 
 ```bash
 sudo serveradmin -x command mail:command = setAltDataStore
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setAutoForward
 
@@ -265,11 +367,17 @@ sudo serveradmin -x command mail:command = setAltDataStore
 sudo serveradmin -x command mail:command = setAutoForward
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setDebugLog
 
 ```bash
 sudo serveradmin -x command mail:command = setDebugLog
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setDomainMembers
 
@@ -277,11 +385,17 @@ sudo serveradmin -x command mail:command = setDebugLog
 sudo serveradmin -x command mail:command = setDomainMembers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setListSettings
 
 ```bash
 sudo serveradmin -x command mail:command = setListSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setState
 
@@ -289,11 +403,17 @@ sudo serveradmin -x command mail:command = setListSettings
 sudo serveradmin -x command mail:command = setState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setUserAttributes
 
 ```bash
 sudo serveradmin -x command mail:command = setUserAttributes
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setWhitelistFrom
 
@@ -301,11 +421,17 @@ sudo serveradmin -x command mail:command = setUserAttributes
 sudo serveradmin -x command mail:command = setWhitelistFrom
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## tailFile
 
 ```bash
 sudo serveradmin -x command mail:command = tailFile
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## updateGroupMembership
 
@@ -313,11 +439,17 @@ sudo serveradmin -x command mail:command = tailFile
 sudo serveradmin -x command mail:command = updateGroupMembership
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## updateGroups
 
 ```bash
 sudo serveradmin -x command mail:command = updateGroups
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## validateMasterCf
 
@@ -325,9 +457,15 @@ sudo serveradmin -x command mail:command = updateGroups
 sudo serveradmin -x command mail:command = validateMasterCf
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command mail:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

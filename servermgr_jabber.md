@@ -22,11 +22,17 @@
 sudo serveradmin -x command jabber:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command jabber:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initialSetup
 
@@ -34,11 +40,17 @@ sudo serveradmin -x command jabber:command = getState
 sudo serveradmin -x command jabber:command = initialSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command jabber:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setState
 
@@ -46,15 +58,24 @@ sudo serveradmin -x command jabber:command = readSettings
 sudo serveradmin -x command jabber:command = setState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## tailFile
 
 ```bash
 sudo serveradmin -x command jabber:command = tailFile
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command jabber:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

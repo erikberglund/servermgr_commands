@@ -37,11 +37,17 @@
 sudo serveradmin -x command info:command = cancelGetFileSizes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getApplicationConfig
 
 ```bash
 sudo serveradmin -x command info:command = getApplicationConfig
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getCopyFilesProgress
 
@@ -49,11 +55,17 @@ sudo serveradmin -x command info:command = getApplicationConfig
 sudo serveradmin -x command info:command = getCopyFilesProgress
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getExistingLogFiles
 
 ```bash
 sudo serveradmin -x command info:command = getExistingLogFiles
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getFileSizes
 
@@ -61,11 +73,17 @@ sudo serveradmin -x command info:command = getExistingLogFiles
 sudo serveradmin -x command info:command = getFileSizes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getFileSizesProgress
 
 ```bash
 sudo serveradmin -x command info:command = getFileSizesProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getHardwareInfo
 
@@ -73,11 +91,17 @@ sudo serveradmin -x command info:command = getFileSizesProgress
 sudo serveradmin -x command info:command = getHardwareInfo
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getHistory
 
 ```bash
 sudo serveradmin -x command info:command = getHistory
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -85,11 +109,17 @@ sudo serveradmin -x command info:command = getHistory
 sudo serveradmin -x command info:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getRemoveFilesProgress
 
 ```bash
 sudo serveradmin -x command info:command = getRemoveFilesProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getRestartServermgrdStatus
 
@@ -97,11 +127,17 @@ sudo serveradmin -x command info:command = getRemoveFilesProgress
 sudo serveradmin -x command info:command = getRestartServermgrdStatus
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command info:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getSystemLogPaths
 
@@ -109,11 +145,17 @@ sudo serveradmin -x command info:command = getState
 sudo serveradmin -x command info:command = getSystemLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command info:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## removeFiles
 
@@ -121,11 +163,17 @@ sudo serveradmin -x command info:command = readSettings
 sudo serveradmin -x command info:command = removeFiles
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## sendDiagnosticDataToApple
 
 ```bash
 sudo serveradmin -x command info:command = sendDiagnosticDataToApple
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setApplicationConfig
 
@@ -133,11 +181,17 @@ sudo serveradmin -x command info:command = sendDiagnosticDataToApple
 sudo serveradmin -x command info:command = setApplicationConfig
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setPluginLogging
 
 ```bash
 sudo serveradmin -x command info:command = setPluginLogging
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## startCopyFiles
 
@@ -145,11 +199,17 @@ sudo serveradmin -x command info:command = setPluginLogging
 sudo serveradmin -x command info:command = startCopyFiles
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## tailFile
 
 ```bash
 sudo serveradmin -x command info:command = tailFile
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## updateServermgrCert
 
@@ -157,9 +217,15 @@ sudo serveradmin -x command info:command = tailFile
 sudo serveradmin -x command info:command = updateServermgrCert
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command info:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

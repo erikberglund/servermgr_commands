@@ -28,11 +28,17 @@
 sudo serveradmin -x command caching:command = flushCache
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## flushCacheIfNeeded
 
 ```bash
 sudo serveradmin -x command caching:command = flushCacheIfNeeded
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## flushPersonalCache
 
@@ -40,11 +46,17 @@ sudo serveradmin -x command caching:command = flushCacheIfNeeded
 sudo serveradmin -x command caching:command = flushPersonalCache
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## flushSharedCache
 
 ```bash
 sudo serveradmin -x command caching:command = flushSharedCache
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getHistory
 
@@ -52,11 +64,17 @@ sudo serveradmin -x command caching:command = flushSharedCache
 sudo serveradmin -x command caching:command = getHistory
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command caching:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -64,11 +82,17 @@ sudo serveradmin -x command caching:command = getLogPaths
 sudo serveradmin -x command caching:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## initialSetup
 
 ```bash
 sudo serveradmin -x command caching:command = initialSetup
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## makeDNSTXTRecords
 
@@ -76,11 +100,17 @@ sudo serveradmin -x command caching:command = initialSetup
 sudo serveradmin -x command caching:command = makeDNSTXTRecords
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command caching:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## removedOldData
 
@@ -88,15 +118,24 @@ sudo serveradmin -x command caching:command = readSettings
 sudo serveradmin -x command caching:command = removedOldData
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## tailFile
 
 ```bash
 sudo serveradmin -x command caching:command = tailFile
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command caching:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

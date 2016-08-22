@@ -62,11 +62,17 @@
 sudo serveradmin -x command calendar:command = addReadProxy
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## addWriteProxy
 
 ```bash
 sudo serveradmin -x command calendar:command = addWriteProxy
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## beginDataRelocation
 
@@ -74,11 +80,17 @@ sudo serveradmin -x command calendar:command = addWriteProxy
 sudo serveradmin -x command calendar:command = beginDataRelocation
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## calendarServerOperation
 
 ```bash
 sudo serveradmin -x command calendar:command = calendarServerOperation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createAddress
 
@@ -86,11 +98,17 @@ sudo serveradmin -x command calendar:command = calendarServerOperation
 sudo serveradmin -x command calendar:command = createAddress
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createLocation
 
 ```bash
 sudo serveradmin -x command calendar:command = createLocation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createMailSenderAccount
 
@@ -98,11 +116,17 @@ sudo serveradmin -x command calendar:command = createLocation
 sudo serveradmin -x command calendar:command = createMailSenderAccount
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createResource
 
 ```bash
 sudo serveradmin -x command calendar:command = createResource
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## deleteAddress
 
@@ -110,11 +134,17 @@ sudo serveradmin -x command calendar:command = createResource
 sudo serveradmin -x command calendar:command = deleteAddress
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteLocation
 
 ```bash
 sudo serveradmin -x command calendar:command = deleteLocation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## deleteResource
 
@@ -122,11 +152,17 @@ sudo serveradmin -x command calendar:command = deleteLocation
 sudo serveradmin -x command calendar:command = deleteResource
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## doProcessInput
 
 ```bash
 sudo serveradmin -x command calendar:command = doProcessInput
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## enableMailAccessForCalendarServiceUser
 
@@ -134,11 +170,17 @@ sudo serveradmin -x command calendar:command = doProcessInput
 sudo serveradmin -x command calendar:command = enableMailAccessForCalendarServiceUser
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## endDataRelocation
 
 ```bash
 sudo serveradmin -x command calendar:command = endDataRelocation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getAddressAttributes
 
@@ -146,11 +188,17 @@ sudo serveradmin -x command calendar:command = endDataRelocation
 sudo serveradmin -x command calendar:command = getAddressAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getAddressList
 
 ```bash
 sudo serveradmin -x command calendar:command = getAddressList
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getExportServiceArchiveProgress
 
@@ -158,11 +206,17 @@ sudo serveradmin -x command calendar:command = getAddressList
 sudo serveradmin -x command calendar:command = getExportServiceArchiveProgress
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getImportServiceArchiveProgress
 
 ```bash
 sudo serveradmin -x command calendar:command = getImportServiceArchiveProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getList
 
@@ -170,11 +224,17 @@ sudo serveradmin -x command calendar:command = getImportServiceArchiveProgress
 sudo serveradmin -x command calendar:command = getList
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLocationAndResourceList
 
 ```bash
 sudo serveradmin -x command calendar:command = getLocationAndResourceList
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLocationAttributes
 
@@ -182,11 +242,17 @@ sudo serveradmin -x command calendar:command = getLocationAndResourceList
 sudo serveradmin -x command calendar:command = getLocationAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLocationList
 
 ```bash
 sudo serveradmin -x command calendar:command = getLocationList
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -194,11 +260,17 @@ sudo serveradmin -x command calendar:command = getLocationList
 sudo serveradmin -x command calendar:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getMoveDataLocationProgress
 
 ```bash
 sudo serveradmin -x command calendar:command = getMoveDataLocationProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getResourceAttributes
 
@@ -206,11 +278,17 @@ sudo serveradmin -x command calendar:command = getMoveDataLocationProgress
 sudo serveradmin -x command calendar:command = getResourceAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getResourceList
 
 ```bash
 sudo serveradmin -x command calendar:command = getResourceList
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getServiceUser
 
@@ -218,11 +296,17 @@ sudo serveradmin -x command calendar:command = getResourceList
 sudo serveradmin -x command calendar:command = getServiceUser
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command calendar:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## listReadProxies
 
@@ -230,11 +314,17 @@ sudo serveradmin -x command calendar:command = getState
 sudo serveradmin -x command calendar:command = listReadProxies
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## listWriteProxies
 
 ```bash
 sudo serveradmin -x command calendar:command = listWriteProxies
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## purgeOldEvents
 
@@ -242,11 +332,17 @@ sudo serveradmin -x command calendar:command = listWriteProxies
 sudo serveradmin -x command calendar:command = purgeOldEvents
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readMailSenderSettings
 
 ```bash
 sudo serveradmin -x command calendar:command = readMailSenderSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -254,11 +350,17 @@ sudo serveradmin -x command calendar:command = readMailSenderSettings
 sudo serveradmin -x command calendar:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## removeReadProxy
 
 ```bash
 sudo serveradmin -x command calendar:command = removeReadProxy
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## removeWriteProxy
 
@@ -266,11 +368,17 @@ sudo serveradmin -x command calendar:command = removeReadProxy
 sudo serveradmin -x command calendar:command = removeWriteProxy
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## restart
 
 ```bash
 sudo serveradmin -x command calendar:command = restart
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setAddressAttributes
 
@@ -278,11 +386,17 @@ sudo serveradmin -x command calendar:command = restart
 sudo serveradmin -x command calendar:command = setAddressAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setLocationAttributes
 
 ```bash
 sudo serveradmin -x command calendar:command = setLocationAttributes
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setResourceAttributes
 
@@ -290,11 +404,17 @@ sudo serveradmin -x command calendar:command = setLocationAttributes
 sudo serveradmin -x command calendar:command = setResourceAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setState
 
 ```bash
 sudo serveradmin -x command calendar:command = setState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## startBoth
 
@@ -302,11 +422,17 @@ sudo serveradmin -x command calendar:command = setState
 sudo serveradmin -x command calendar:command = startBoth
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## startExportServiceArchive
 
 ```bash
 sudo serveradmin -x command calendar:command = startExportServiceArchive
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## startImportServiceArchive
 
@@ -314,11 +440,17 @@ sudo serveradmin -x command calendar:command = startExportServiceArchive
 sudo serveradmin -x command calendar:command = startImportServiceArchive
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## startMoveDataLocation
 
 ```bash
 sudo serveradmin -x command calendar:command = startMoveDataLocation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## stopBoth
 
@@ -326,15 +458,24 @@ sudo serveradmin -x command calendar:command = startMoveDataLocation
 sudo serveradmin -x command calendar:command = stopBoth
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeMailSenderSettings
 
 ```bash
 sudo serveradmin -x command calendar:command = writeMailSenderSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command calendar:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

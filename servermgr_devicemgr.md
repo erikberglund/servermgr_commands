@@ -33,11 +33,17 @@
 sudo serveradmin -x command devicemgr:command = activateAPNS
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## activateOD
 
 ```bash
 sudo serveradmin -x command devicemgr:command = activateOD
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## certificateUpdated
 
@@ -45,11 +51,17 @@ sudo serveradmin -x command devicemgr:command = activateOD
 sudo serveradmin -x command devicemgr:command = certificateUpdated
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## configureAppDistribution
 
 ```bash
 sudo serveradmin -x command devicemgr:command = configureAppDistribution
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## configureSimplifiedDeviceEnrollment
 
@@ -57,11 +69,17 @@ sudo serveradmin -x command devicemgr:command = configureAppDistribution
 sudo serveradmin -x command devicemgr:command = configureSimplifiedDeviceEnrollment
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command devicemgr:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getMoveDataLocationProgress
 
@@ -69,11 +87,17 @@ sudo serveradmin -x command devicemgr:command = getLogPaths
 sudo serveradmin -x command devicemgr:command = getMoveDataLocationProgress
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command devicemgr:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getTokenEncryptionCertificate
 
@@ -81,11 +105,17 @@ sudo serveradmin -x command devicemgr:command = getState
 sudo serveradmin -x command devicemgr:command = getTokenEncryptionCertificate
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readAppDistributionSettings
 
 ```bash
 sudo serveradmin -x command devicemgr:command = readAppDistributionSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -93,11 +123,17 @@ sudo serveradmin -x command devicemgr:command = readAppDistributionSettings
 sudo serveradmin -x command devicemgr:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSimplifiedDeviceEnrollmentSettings
 
 ```bash
 sudo serveradmin -x command devicemgr:command = readSimplifiedDeviceEnrollmentSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## reloadApacheConfig
 
@@ -105,11 +141,17 @@ sudo serveradmin -x command devicemgr:command = readSimplifiedDeviceEnrollmentSe
 sudo serveradmin -x command devicemgr:command = reloadApacheConfig
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setEmailAccountSettings
 
 ```bash
 sudo serveradmin -x command devicemgr:command = setEmailAccountSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setODMaster
 
@@ -117,11 +159,17 @@ sudo serveradmin -x command devicemgr:command = setEmailAccountSettings
 sudo serveradmin -x command devicemgr:command = setODMaster
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setSSLState
 
 ```bash
 sudo serveradmin -x command devicemgr:command = setSSLState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## startMoveDataLocation
 
@@ -129,9 +177,15 @@ sudo serveradmin -x command devicemgr:command = setSSLState
 sudo serveradmin -x command devicemgr:command = startMoveDataLocation
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command devicemgr:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

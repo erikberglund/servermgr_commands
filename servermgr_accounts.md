@@ -36,11 +36,17 @@
 sudo serveradmin -x command accounts:command = authCredentials
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createBasicSACLGroups
 
 ```bash
 sudo serveradmin -x command accounts:command = createBasicSACLGroups
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createDefaultGroup
 
@@ -48,11 +54,17 @@ sudo serveradmin -x command accounts:command = createBasicSACLGroups
 sudo serveradmin -x command accounts:command = createDefaultGroup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createGroup
 
 ```bash
 sudo serveradmin -x command accounts:command = createGroup
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createUser
 
@@ -60,11 +72,17 @@ sudo serveradmin -x command accounts:command = createGroup
 sudo serveradmin -x command accounts:command = createUser
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteGroup
 
 ```bash
 sudo serveradmin -x command accounts:command = deleteGroup
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## deleteUser
 
@@ -72,11 +90,17 @@ sudo serveradmin -x command accounts:command = deleteGroup
 sudo serveradmin -x command accounts:command = deleteUser
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## doProcessInput
 
 ```bash
 sudo serveradmin -x command accounts:command = doProcessInput
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getGroupAttributes
 
@@ -84,11 +108,17 @@ sudo serveradmin -x command accounts:command = doProcessInput
 sudo serveradmin -x command accounts:command = getGroupAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getGroupList
 
 ```bash
 sudo serveradmin -x command accounts:command = getGroupList
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getImportList
 
@@ -96,11 +126,17 @@ sudo serveradmin -x command accounts:command = getGroupList
 sudo serveradmin -x command accounts:command = getImportList
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command accounts:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getUserAttributes
 
@@ -108,11 +144,17 @@ sudo serveradmin -x command accounts:command = getState
 sudo serveradmin -x command accounts:command = getUserAttributes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getUserList
 
 ```bash
 sudo serveradmin -x command accounts:command = getUserList
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -120,11 +162,17 @@ sudo serveradmin -x command accounts:command = getUserList
 sudo serveradmin -x command accounts:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setGroupAttributes
 
 ```bash
 sudo serveradmin -x command accounts:command = setGroupAttributes
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setMembership
 
@@ -132,11 +180,17 @@ sudo serveradmin -x command accounts:command = setGroupAttributes
 sudo serveradmin -x command accounts:command = setMembership
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setUserAttributes
 
 ```bash
 sudo serveradmin -x command accounts:command = setUserAttributes
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## systemKeychainReady
 
@@ -144,15 +198,24 @@ sudo serveradmin -x command accounts:command = setUserAttributes
 sudo serveradmin -x command accounts:command = systemKeychainReady
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## updateDefaultGroup
 
 ```bash
 sudo serveradmin -x command accounts:command = updateDefaultGroup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command accounts:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

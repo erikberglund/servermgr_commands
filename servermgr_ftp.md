@@ -21,11 +21,17 @@
 sudo serveradmin -x command ftp:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command ftp:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initialSetup
 
@@ -33,11 +39,17 @@ sudo serveradmin -x command ftp:command = getState
 sudo serveradmin -x command ftp:command = initialSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command ftp:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## restoreFactorySettings
 
@@ -45,9 +57,15 @@ sudo serveradmin -x command ftp:command = readSettings
 sudo serveradmin -x command ftp:command = restoreFactorySettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command ftp:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

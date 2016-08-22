@@ -28,11 +28,17 @@
 sudo serveradmin -x command web:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getSites
 
 ```bash
 sudo serveradmin -x command web:command = getSites
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -40,11 +46,17 @@ sudo serveradmin -x command web:command = getSites
 sudo serveradmin -x command web:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getWebAppState
 
 ```bash
 sudo serveradmin -x command web:command = getWebAppState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getWebApps
 
@@ -52,11 +64,17 @@ sudo serveradmin -x command web:command = getWebAppState
 sudo serveradmin -x command web:command = getWebApps
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getWebDAVSharingState
 
 ```bash
 sudo serveradmin -x command web:command = getWebDAVSharingState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initialSetup
 
@@ -64,11 +82,17 @@ sudo serveradmin -x command web:command = getWebDAVSharingState
 sudo serveradmin -x command web:command = initialSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command web:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## restoreFactorySettings
 
@@ -76,11 +100,17 @@ sudo serveradmin -x command web:command = readSettings
 sudo serveradmin -x command web:command = restoreFactorySettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setState
 
 ```bash
 sudo serveradmin -x command web:command = setState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setWebAppState
 
@@ -88,15 +118,24 @@ sudo serveradmin -x command web:command = setState
 sudo serveradmin -x command web:command = setWebAppState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setWebDAVSharingState
 
 ```bash
 sudo serveradmin -x command web:command = setWebDAVSharingState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command web:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

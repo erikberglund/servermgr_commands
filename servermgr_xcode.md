@@ -48,11 +48,17 @@
 sudo serveradmin -x command xcode:command = addDeviceWithIDToADCTeamWithTeamID
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## cancelJoinRequestForTeamID
 
 ```bash
 sudo serveradmin -x command xcode:command = cancelJoinRequestForTeamID
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## cancelJoinRequestForTeamIDAppleIDAndPassword
 
@@ -60,11 +66,17 @@ sudo serveradmin -x command xcode:command = cancelJoinRequestForTeamID
 sudo serveradmin -x command xcode:command = cancelJoinRequestForTeamIDAppleIDAndPassword
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createLocalRepository
 
 ```bash
 sudo serveradmin -x command xcode:command = createLocalRepository
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## exampleErrorResponse
 
@@ -72,11 +84,17 @@ sudo serveradmin -x command xcode:command = createLocalRepository
 sudo serveradmin -x command xcode:command = exampleErrorResponse
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getADCTeamsForAppleID
 
 ```bash
 sudo serveradmin -x command xcode:command = getADCTeamsForAppleID
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getADCTeamsForAppleIDAndPassword
 
@@ -84,11 +102,17 @@ sudo serveradmin -x command xcode:command = getADCTeamsForAppleID
 sudo serveradmin -x command xcode:command = getADCTeamsForAppleIDAndPassword
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getCurrentlyConnectedDevices
 
 ```bash
 sudo serveradmin -x command xcode:command = getCurrentlyConnectedDevices
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getFirstLaunchArgumentsForXcodeAtPath
 
@@ -96,11 +120,17 @@ sudo serveradmin -x command xcode:command = getCurrentlyConnectedDevices
 sudo serveradmin -x command xcode:command = getFirstLaunchArgumentsForXcodeAtPath
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command xcode:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getSetXcodePathProgress
 
@@ -108,11 +138,17 @@ sudo serveradmin -x command xcode:command = getLogPaths
 sudo serveradmin -x command xcode:command = getSetXcodePathProgress
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command xcode:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getSupportsWebProxy
 
@@ -120,11 +156,17 @@ sudo serveradmin -x command xcode:command = getState
 sudo serveradmin -x command xcode:command = getSupportsWebProxy
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## initialSetup
 
 ```bash
 sudo serveradmin -x command xcode:command = initialSetup
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## joinTeamsWithAppleID
 
@@ -132,11 +174,17 @@ sudo serveradmin -x command xcode:command = initialSetup
 sudo serveradmin -x command xcode:command = joinTeamsWithAppleID
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## joinTeamsWithAppleIDAndPassword
 
 ```bash
 sudo serveradmin -x command xcode:command = joinTeamsWithAppleIDAndPassword
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## listLocalRepositories
 
@@ -144,11 +192,17 @@ sudo serveradmin -x command xcode:command = joinTeamsWithAppleIDAndPassword
 sudo serveradmin -x command xcode:command = listLocalRepositories
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## needToDisplayFirstLaunchForXcodeAtPath
 
 ```bash
 sudo serveradmin -x command xcode:command = needToDisplayFirstLaunchForXcodeAtPath
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -156,11 +210,17 @@ sudo serveradmin -x command xcode:command = needToDisplayFirstLaunchForXcodeAtPa
 sudo serveradmin -x command xcode:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## removeDeviceWithIDFromADCTeamWithTeamID
 
 ```bash
 sudo serveradmin -x command xcode:command = removeDeviceWithIDFromADCTeamWithTeamID
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## removeLocalRepository
 
@@ -168,11 +228,17 @@ sudo serveradmin -x command xcode:command = removeDeviceWithIDFromADCTeamWithTea
 sudo serveradmin -x command xcode:command = removeLocalRepository
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## renewTeamMembershipForTeamID
 
 ```bash
 sudo serveradmin -x command xcode:command = renewTeamMembershipForTeamID
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## renewTeamMembershipForTeamIDUsingAppleIDAndPassword
 
@@ -180,11 +246,17 @@ sudo serveradmin -x command xcode:command = renewTeamMembershipForTeamID
 sudo serveradmin -x command xcode:command = renewTeamMembershipForTeamIDUsingAppleIDAndPassword
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## revokeTeamMembershipForTeamID
 
 ```bash
 sudo serveradmin -x command xcode:command = revokeTeamMembershipForTeamID
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## revokeTeamMembershipForTeamIDUsingAppleIDAndPassword
 
@@ -192,11 +264,17 @@ sudo serveradmin -x command xcode:command = revokeTeamMembershipForTeamID
 sudo serveradmin -x command xcode:command = revokeTeamMembershipForTeamIDUsingAppleIDAndPassword
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setBotAccess
 
 ```bash
 sudo serveradmin -x command xcode:command = setBotAccess
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setDevelopmentBitOnDeviceWithID
 
@@ -204,11 +282,17 @@ sudo serveradmin -x command xcode:command = setBotAccess
 sudo serveradmin -x command xcode:command = setDevelopmentBitOnDeviceWithID
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setLocalRepositoryConfiguration
 
 ```bash
 sudo serveradmin -x command xcode:command = setLocalRepositoryConfiguration
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setLocalRepositoryCreationAccess
 
@@ -216,11 +300,17 @@ sudo serveradmin -x command xcode:command = setLocalRepositoryConfiguration
 sudo serveradmin -x command xcode:command = setLocalRepositoryCreationAccess
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setXcodePath
 
 ```bash
 sudo serveradmin -x command xcode:command = setXcodePath
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## shouldConfirmBeforeSetXcodePath
 
@@ -228,15 +318,24 @@ sudo serveradmin -x command xcode:command = setXcodePath
 sudo serveradmin -x command xcode:command = shouldConfirmBeforeSetXcodePath
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## updateLocalRepository
 
 ```bash
 sudo serveradmin -x command xcode:command = updateLocalRepository
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## validateXcodeAtPath
 
 ```bash
 sudo serveradmin -x command xcode:command = validateXcodeAtPath
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

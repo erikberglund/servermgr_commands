@@ -21,11 +21,17 @@
 sudo serveradmin -x command smb:command = disconnectUsers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getConnectedUsers
 
 ```bash
 sudo serveradmin -x command smb:command = getConnectedUsers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getHistory
 
@@ -33,11 +39,17 @@ sudo serveradmin -x command smb:command = getConnectedUsers
 sudo serveradmin -x command smb:command = getHistory
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command smb:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -45,9 +57,15 @@ sudo serveradmin -x command smb:command = getState
 sudo serveradmin -x command smb:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command smb:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

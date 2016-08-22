@@ -24,11 +24,17 @@
 sudo serveradmin -x command wiki:command = doProcessInput
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getCountOfActiveUsers
 
 ```bash
 sudo serveradmin -x command wiki:command = getCountOfActiveUsers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -36,11 +42,17 @@ sudo serveradmin -x command wiki:command = getCountOfActiveUsers
 sudo serveradmin -x command wiki:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command wiki:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getWikiList
 
@@ -48,11 +60,17 @@ sudo serveradmin -x command wiki:command = getState
 sudo serveradmin -x command wiki:command = getWikiList
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getWikisList
 
 ```bash
 sudo serveradmin -x command wiki:command = getWikisList
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initialSetup
 
@@ -60,15 +78,24 @@ sudo serveradmin -x command wiki:command = getWikisList
 sudo serveradmin -x command wiki:command = initialSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command wiki:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command wiki:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

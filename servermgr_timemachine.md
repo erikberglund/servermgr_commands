@@ -23,11 +23,17 @@
 sudo serveradmin -x command timemachine:command = deleteBackup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteBackups
 
 ```bash
 sudo serveradmin -x command timemachine:command = deleteBackups
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## enableVolumePermissions
 
@@ -35,11 +41,17 @@ sudo serveradmin -x command timemachine:command = deleteBackups
 sudo serveradmin -x command timemachine:command = enableVolumePermissions
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getBackups
 
 ```bash
 sudo serveradmin -x command timemachine:command = getBackups
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -47,11 +59,17 @@ sudo serveradmin -x command timemachine:command = getBackups
 sudo serveradmin -x command timemachine:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command timemachine:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -59,9 +77,15 @@ sudo serveradmin -x command timemachine:command = getState
 sudo serveradmin -x command timemachine:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command timemachine:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

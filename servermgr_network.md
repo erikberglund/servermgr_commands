@@ -39,11 +39,17 @@
 sudo serveradmin -x command network:command = cancelIGDTransaction
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## clearCurrentTransaction
 
 ```bash
 sudo serveradmin -x command network:command = clearCurrentTransaction
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## clearIGDPortMappings
 
@@ -51,11 +57,17 @@ sudo serveradmin -x command network:command = clearCurrentTransaction
 sudo serveradmin -x command network:command = clearIGDPortMappings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## commitIGDTransaction
 
 ```bash
 sudo serveradmin -x command network:command = commitIGDTransaction
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getCurrentGatewayInfo
 
@@ -63,11 +75,17 @@ sudo serveradmin -x command network:command = commitIGDTransaction
 sudo serveradmin -x command network:command = getCurrentGatewayInfo
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getIGDPortMappings
 
 ```bash
 sudo serveradmin -x command network:command = getIGDPortMappings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getIGDPortmaps
 
@@ -75,11 +93,17 @@ sudo serveradmin -x command network:command = getIGDPortMappings
 sudo serveradmin -x command network:command = getIGDPortmaps
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getIGDSettings
 
 ```bash
 sudo serveradmin -x command network:command = getIGDSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getIGDTransactionStatus
 
@@ -87,11 +111,17 @@ sudo serveradmin -x command network:command = getIGDSettings
 sudo serveradmin -x command network:command = getIGDTransactionStatus
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getPortMaps
 
 ```bash
 sudo serveradmin -x command network:command = getPortMaps
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -99,11 +129,17 @@ sudo serveradmin -x command network:command = getPortMaps
 sudo serveradmin -x command network:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## manageCurrentIGD
 
 ```bash
 sudo serveradmin -x command network:command = manageCurrentIGD
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## openIGDTransaction
 
@@ -111,11 +147,17 @@ sudo serveradmin -x command network:command = manageCurrentIGD
 sudo serveradmin -x command network:command = openIGDTransaction
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command network:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## restoreIGDPortmaps
 
@@ -123,11 +165,17 @@ sudo serveradmin -x command network:command = readSettings
 sudo serveradmin -x command network:command = restoreIGDPortmaps
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## restoreIGDSettings
 
 ```bash
 sudo serveradmin -x command network:command = restoreIGDSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## saveIGDPortmaps
 
@@ -135,11 +183,17 @@ sudo serveradmin -x command network:command = restoreIGDSettings
 sudo serveradmin -x command network:command = saveIGDPortmaps
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## saveIGDSettings
 
 ```bash
 sudo serveradmin -x command network:command = saveIGDSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setIGDDNSServers
 
@@ -147,11 +201,17 @@ sudo serveradmin -x command network:command = saveIGDSettings
 sudo serveradmin -x command network:command = setIGDDNSServers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setIGDPasswordForDevice
 
 ```bash
 sudo serveradmin -x command network:command = setIGDPasswordForDevice
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setIGDPortmaps
 
@@ -159,11 +219,17 @@ sudo serveradmin -x command network:command = setIGDPasswordForDevice
 sudo serveradmin -x command network:command = setIGDPortmaps
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setIGDSettings
 
 ```bash
 sudo serveradmin -x command network:command = setIGDSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## syncIGDPortMappings
 
@@ -171,9 +237,15 @@ sudo serveradmin -x command network:command = setIGDSettings
 sudo serveradmin -x command network:command = syncIGDPortMappings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command network:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

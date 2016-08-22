@@ -26,11 +26,17 @@
 sudo serveradmin -x command status:command = MXRecordsForDomainNames
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## connectionStatusForPorts
 
 ```bash
 sudo serveradmin -x command status:command = connectionStatusForPorts
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getExternalDomainName
 
@@ -38,11 +44,17 @@ sudo serveradmin -x command status:command = connectionStatusForPorts
 sudo serveradmin -x command status:command = getExternalDomainName
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getExternalIPAddress
 
 ```bash
 sudo serveradmin -x command status:command = getExternalIPAddress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -50,11 +62,17 @@ sudo serveradmin -x command status:command = getExternalIPAddress
 sudo serveradmin -x command status:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command status:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## isServerAlive
 
@@ -62,11 +80,17 @@ sudo serveradmin -x command status:command = getState
 sudo serveradmin -x command status:command = isServerAlive
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## reachabilityForWebDomains
 
 ```bash
 sudo serveradmin -x command status:command = reachabilityForWebDomains
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -74,15 +98,24 @@ sudo serveradmin -x command status:command = reachabilityForWebDomains
 sudo serveradmin -x command status:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## resolutionStatusForDomainName
 
 ```bash
 sudo serveradmin -x command status:command = resolutionStatusForDomainName
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command status:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

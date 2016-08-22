@@ -53,11 +53,17 @@
 sudo serveradmin -x command certs:command = acquirePushCertificate
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## cancelPushCertificate
 
 ```bash
 sudo serveradmin -x command certs:command = cancelPushCertificate
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## certificatesNeedingRenewal
 
@@ -65,11 +71,17 @@ sudo serveradmin -x command certs:command = cancelPushCertificate
 sudo serveradmin -x command certs:command = certificatesNeedingRenewal
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createCertificateSigningRequest
 
 ```bash
 sudo serveradmin -x command certs:command = createCertificateSigningRequest
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createDefaultSelfSignedIdentity
 
@@ -77,11 +89,17 @@ sudo serveradmin -x command certs:command = createCertificateSigningRequest
 sudo serveradmin -x command certs:command = createDefaultSelfSignedIdentity
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createInitialPushIdentities
 
 ```bash
 sudo serveradmin -x command certs:command = createInitialPushIdentities
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createODSignedIdentity
 
@@ -89,11 +107,17 @@ sudo serveradmin -x command certs:command = createInitialPushIdentities
 sudo serveradmin -x command certs:command = createODSignedIdentity
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createSelfSignedIdentity
 
 ```bash
 sudo serveradmin -x command certs:command = createSelfSignedIdentity
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## deleteCertificateSigningRequest
 
@@ -101,11 +125,17 @@ sudo serveradmin -x command certs:command = createSelfSignedIdentity
 sudo serveradmin -x command certs:command = deleteCertificateSigningRequest
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteIdentity
 
 ```bash
 sudo serveradmin -x command certs:command = deleteIdentity
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## exportAllIdentities
 
@@ -113,11 +143,17 @@ sudo serveradmin -x command certs:command = deleteIdentity
 sudo serveradmin -x command certs:command = exportAllIdentities
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## exportDirectory
 
 ```bash
 sudo serveradmin -x command certs:command = exportDirectory
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## exportIdentity
 
@@ -125,11 +161,17 @@ sudo serveradmin -x command certs:command = exportDirectory
 sudo serveradmin -x command certs:command = exportIdentity
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## exportPathsForIdentity
 
 ```bash
 sudo serveradmin -x command certs:command = exportPathsForIdentity
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## fingerprintForIdentity
 
@@ -137,11 +179,17 @@ sudo serveradmin -x command certs:command = exportPathsForIdentity
 sudo serveradmin -x command certs:command = fingerprintForIdentity
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getPushCertificateStatus
 
 ```bash
 sudo serveradmin -x command certs:command = getPushCertificateStatus
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getPushTopicForPreferredIdentityName
 
@@ -149,11 +197,17 @@ sudo serveradmin -x command certs:command = getPushCertificateStatus
 sudo serveradmin -x command certs:command = getPushTopicForPreferredIdentityName
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command certs:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## importCertificates
 
@@ -161,11 +215,17 @@ sudo serveradmin -x command certs:command = getState
 sudo serveradmin -x command certs:command = importCertificates
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## importIdentity
 
 ```bash
 sudo serveradmin -x command certs:command = importIdentity
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initialSetup
 
@@ -173,11 +233,17 @@ sudo serveradmin -x command certs:command = importIdentity
 sudo serveradmin -x command certs:command = initialSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## isODCAPresent
 
 ```bash
 sudo serveradmin -x command certs:command = isODCAPresent
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## migrateLegacyAccess
 
@@ -185,11 +251,17 @@ sudo serveradmin -x command certs:command = isODCAPresent
 sudo serveradmin -x command certs:command = migrateLegacyAccess
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## passphraseForExportedPrivateKey
 
 ```bash
 sudo serveradmin -x command certs:command = passphraseForExportedPrivateKey
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readCertificateSigningRequests
 
@@ -197,11 +269,17 @@ sudo serveradmin -x command certs:command = passphraseForExportedPrivateKey
 sudo serveradmin -x command certs:command = readCertificateSigningRequests
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readDefaultIdentity
 
 ```bash
 sudo serveradmin -x command certs:command = readDefaultIdentity
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readIdentity
 
@@ -209,11 +287,17 @@ sudo serveradmin -x command certs:command = readDefaultIdentity
 sudo serveradmin -x command certs:command = readIdentity
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readIdentityCertificates
 
 ```bash
 sudo serveradmin -x command certs:command = readIdentityCertificates
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readODIdentities
 
@@ -221,11 +305,17 @@ sudo serveradmin -x command certs:command = readIdentityCertificates
 sudo serveradmin -x command certs:command = readODIdentities
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command certs:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## renewIdentity
 
@@ -233,11 +323,17 @@ sudo serveradmin -x command certs:command = readSettings
 sudo serveradmin -x command certs:command = renewIdentity
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## renewPushCertificate
 
 ```bash
 sudo serveradmin -x command certs:command = renewPushCertificate
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## sendPushCertificateSigningRequest
 
@@ -245,11 +341,17 @@ sudo serveradmin -x command certs:command = renewPushCertificate
 sudo serveradmin -x command certs:command = sendPushCertificateSigningRequest
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## sendPushEmailConfirmationRequest
 
 ```bash
 sudo serveradmin -x command certs:command = sendPushEmailConfirmationRequest
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setState
 
@@ -257,11 +359,17 @@ sudo serveradmin -x command certs:command = sendPushEmailConfirmationRequest
 sudo serveradmin -x command certs:command = setState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## startIfNeeded
 
 ```bash
 sudo serveradmin -x command certs:command = startIfNeeded
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## updateIdentityWithCertificate
 
@@ -269,9 +377,15 @@ sudo serveradmin -x command certs:command = startIfNeeded
 sudo serveradmin -x command certs:command = updateIdentityWithCertificate
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## validateCertificate
 
 ```bash
 sudo serveradmin -x command certs:command = validateCertificate
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

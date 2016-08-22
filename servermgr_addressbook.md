@@ -19,11 +19,17 @@
 sudo serveradmin -x command addressbook:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command addressbook:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setState
 
@@ -31,9 +37,15 @@ sudo serveradmin -x command addressbook:command = readSettings
 sudo serveradmin -x command addressbook:command = setState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command addressbook:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

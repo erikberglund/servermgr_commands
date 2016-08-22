@@ -39,11 +39,17 @@
 sudo serveradmin -x command san:command = activateSAN
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## browseControllers
 
 ```bash
 sudo serveradmin -x command san:command = browseControllers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## buildOrJoinSAN
 
@@ -51,11 +57,17 @@ sudo serveradmin -x command san:command = browseControllers
 sudo serveradmin -x command san:command = buildOrJoinSAN
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createSAN
 
 ```bash
 sudo serveradmin -x command san:command = createSAN
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createVolume
 
@@ -63,11 +75,17 @@ sudo serveradmin -x command san:command = createSAN
 sudo serveradmin -x command san:command = createVolume
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteVolume
 
 ```bash
 sudo serveradmin -x command san:command = deleteVolume
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## destroySAN
 
@@ -75,11 +93,17 @@ sudo serveradmin -x command san:command = deleteVolume
 sudo serveradmin -x command san:command = destroySAN
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## editVolume
 
 ```bash
 sudo serveradmin -x command san:command = editVolume
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## eraseVolume
 
@@ -87,11 +111,17 @@ sudo serveradmin -x command san:command = editVolume
 sudo serveradmin -x command san:command = eraseVolume
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLUNs
 
 ```bash
 sudo serveradmin -x command san:command = getLUNs
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -99,11 +129,17 @@ sudo serveradmin -x command san:command = getLUNs
 sudo serveradmin -x command san:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getSANConfig
 
 ```bash
 sudo serveradmin -x command san:command = getSANConfig
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -111,11 +147,17 @@ sudo serveradmin -x command san:command = getSANConfig
 sudo serveradmin -x command san:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getVolumeState
 
 ```bash
 sudo serveradmin -x command san:command = getVolumeState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## identifyLUNs
 
@@ -123,11 +165,17 @@ sudo serveradmin -x command san:command = getVolumeState
 sudo serveradmin -x command san:command = identifyLUNs
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## joinSAN
 
 ```bash
 sudo serveradmin -x command san:command = joinSAN
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## labelLUNs
 
@@ -135,11 +183,17 @@ sudo serveradmin -x command san:command = joinSAN
 sudo serveradmin -x command san:command = labelLUNs
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## preflightMakeController
 
 ```bash
 sudo serveradmin -x command san:command = preflightMakeController
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -147,11 +201,17 @@ sudo serveradmin -x command san:command = preflightMakeController
 sudo serveradmin -x command san:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readVolumeProgress
 
 ```bash
 sudo serveradmin -x command san:command = readVolumeProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## removeControllers
 
@@ -159,11 +219,17 @@ sudo serveradmin -x command san:command = readVolumeProgress
 sudo serveradmin -x command san:command = removeControllers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## renameVolume
 
 ```bash
 sudo serveradmin -x command san:command = renameVolume
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setVolumeState
 
@@ -171,9 +237,15 @@ sudo serveradmin -x command san:command = renameVolume
 sudo serveradmin -x command san:command = setVolumeState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command san:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

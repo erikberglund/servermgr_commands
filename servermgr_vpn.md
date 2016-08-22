@@ -25,11 +25,17 @@
 sudo serveradmin -x command vpn:command = createDefaultConfigProfile
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## createVPNKeyAgentUser
 
 ```bash
 sudo serveradmin -x command vpn:command = createVPNKeyAgentUser
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## customizeUserProfile
 
@@ -37,11 +43,17 @@ sudo serveradmin -x command vpn:command = createVPNKeyAgentUser
 sudo serveradmin -x command vpn:command = customizeUserProfile
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getConnectedUsers
 
 ```bash
 sudo serveradmin -x command vpn:command = getConnectedUsers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -49,11 +61,17 @@ sudo serveradmin -x command vpn:command = getConnectedUsers
 sudo serveradmin -x command vpn:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command vpn:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initialSetup
 
@@ -61,11 +79,17 @@ sudo serveradmin -x command vpn:command = getState
 sudo serveradmin -x command vpn:command = initialSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command vpn:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## updateVPNKeyAgentUser
 
@@ -73,9 +97,15 @@ sudo serveradmin -x command vpn:command = readSettings
 sudo serveradmin -x command vpn:command = updateVPNKeyAgentUser
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command vpn:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

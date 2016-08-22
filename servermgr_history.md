@@ -17,9 +17,15 @@
 sudo serveradmin -x command history:command = getMetricValuesBetweenDates
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command history:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

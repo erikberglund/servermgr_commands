@@ -58,11 +58,17 @@
 sudo serveradmin -x command config:command = cleanUpGetDNSServersFromDHCPRequest
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## clearDNSCache
 
 ```bash
 sudo serveradmin -x command config:command = clearDNSCache
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## configureClientBackup
 
@@ -70,11 +76,17 @@ sudo serveradmin -x command config:command = clearDNSCache
 sudo serveradmin -x command config:command = configureClientBackup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## configureKerberos
 
 ```bash
 sudo serveradmin -x command config:command = configureKerberos
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## configureWelcomeEmail
 
@@ -82,11 +94,17 @@ sudo serveradmin -x command config:command = configureKerberos
 sudo serveradmin -x command config:command = configureWelcomeEmail
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## connectToWiFiNetwork
 
 ```bash
 sudo serveradmin -x command config:command = connectToWiFiNetwork
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## createServermgrdIdentity
 
@@ -94,11 +112,17 @@ sudo serveradmin -x command config:command = connectToWiFiNetwork
 sudo serveradmin -x command config:command = createServermgrdIdentity
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## deleteDeletableNetworkServices
 
 ```bash
 sudo serveradmin -x command config:command = deleteDeletableNetworkServices
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## enableLocalUserPasswordHashes
 
@@ -106,11 +130,17 @@ sudo serveradmin -x command config:command = deleteDeletableNetworkServices
 sudo serveradmin -x command config:command = enableLocalUserPasswordHashes
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## evaluateNetwork
 
 ```bash
 sudo serveradmin -x command config:command = evaluateNetwork
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getAvailableWiFiNetworks
 
@@ -118,11 +148,17 @@ sudo serveradmin -x command config:command = evaluateNetwork
 sudo serveradmin -x command config:command = getAvailableWiFiNetworks
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getDNSServersFromDHCP
 
 ```bash
 sudo serveradmin -x command config:command = getDNSServersFromDHCP
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getDeletableNetworkServicesIDs
 
@@ -130,11 +166,17 @@ sudo serveradmin -x command config:command = getDNSServersFromDHCP
 sudo serveradmin -x command config:command = getDeletableNetworkServicesIDs
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getHostNamesForIPAddress
 
 ```bash
 sudo serveradmin -x command config:command = getHostNamesForIPAddress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getMXRecordsForHostName
 
@@ -142,11 +184,17 @@ sudo serveradmin -x command config:command = getHostNamesForIPAddress
 sudo serveradmin -x command config:command = getMXRecordsForHostName
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getNetworkServices
 
 ```bash
 sudo serveradmin -x command config:command = getNetworkServices
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getServermgrdCertifcate
 
@@ -154,11 +202,17 @@ sudo serveradmin -x command config:command = getNetworkServices
 sudo serveradmin -x command config:command = getServermgrdCertifcate
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getSettingNetworkServicesStatus
 
 ```bash
 sudo serveradmin -x command config:command = getSettingNetworkServicesStatus
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getSetupExtrasStatus
 
@@ -166,11 +220,17 @@ sudo serveradmin -x command config:command = getSettingNetworkServicesStatus
 sudo serveradmin -x command config:command = getSetupExtrasStatus
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getSetupState
 
 ```bash
 sudo serveradmin -x command config:command = getSetupState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getSystemProfile
 
@@ -178,11 +238,17 @@ sudo serveradmin -x command config:command = getSetupState
 sudo serveradmin -x command config:command = getSystemProfile
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## initializeSetup
 
 ```bash
 sudo serveradmin -x command config:command = initializeSetup
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## markNetworkServicesAsDeletableAfterSetup
 
@@ -190,11 +256,17 @@ sudo serveradmin -x command config:command = initializeSetup
 sudo serveradmin -x command config:command = markNetworkServicesAsDeletableAfterSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## markSetupCompleted
 
 ```bash
 sudo serveradmin -x command config:command = markSetupCompleted
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readDNSConfiguration
 
@@ -202,11 +274,17 @@ sudo serveradmin -x command config:command = markSetupCompleted
 sudo serveradmin -x command config:command = readDNSConfiguration
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command config:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## renewDHCPLease
 
@@ -214,11 +292,17 @@ sudo serveradmin -x command config:command = readSettings
 sudo serveradmin -x command config:command = renewDHCPLease
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## resetDeletableNetworkServices
 
 ```bash
 sudo serveradmin -x command config:command = resetDeletableNetworkServices
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## resolveHostName
 
@@ -226,11 +310,17 @@ sudo serveradmin -x command config:command = resetDeletableNetworkServices
 sudo serveradmin -x command config:command = resolveHostName
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## runChangeip
 
 ```bash
 sudo serveradmin -x command config:command = runChangeip
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setComputerNames
 
@@ -238,11 +328,17 @@ sudo serveradmin -x command config:command = runChangeip
 sudo serveradmin -x command config:command = setComputerNames
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setNetworkServices
 
 ```bash
 sudo serveradmin -x command config:command = setNetworkServices
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setPPPoESettings
 
@@ -250,11 +346,17 @@ sudo serveradmin -x command config:command = setNetworkServices
 sudo serveradmin -x command config:command = setPPPoESettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setScreenSharingState
 
 ```bash
 sudo serveradmin -x command config:command = setScreenSharingState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setServermgrdCertifcate
 
@@ -262,11 +364,17 @@ sudo serveradmin -x command config:command = setScreenSharingState
 sudo serveradmin -x command config:command = setServermgrdCertifcate
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setSetupState
 
 ```bash
 sudo serveradmin -x command config:command = setSetupState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setUpServer
 
@@ -274,11 +382,17 @@ sudo serveradmin -x command config:command = setSetupState
 sudo serveradmin -x command config:command = setUpServer
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setXsanControllerProperties
 
 ```bash
 sudo serveradmin -x command config:command = setXsanControllerProperties
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## startSetupExtras
 
@@ -286,11 +400,17 @@ sudo serveradmin -x command config:command = setXsanControllerProperties
 sudo serveradmin -x command config:command = startSetupExtras
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## threadedSetNetworkServices
 
 ```bash
 sudo serveradmin -x command config:command = threadedSetNetworkServices
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## threadedStartSetupExtras
 
@@ -298,15 +418,24 @@ sudo serveradmin -x command config:command = threadedSetNetworkServices
 sudo serveradmin -x command config:command = threadedStartSetupExtras
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## validateDataStoreLocation
 
 ```bash
 sudo serveradmin -x command config:command = validateDataStoreLocation
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeXsanControllerConfiguration
 
 ```bash
 sudo serveradmin -x command config:command = writeXsanControllerConfiguration
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

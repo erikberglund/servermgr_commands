@@ -24,11 +24,17 @@
 sudo serveradmin -x command afp:command = disconnectUsers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getConnectedUsers
 
 ```bash
 sudo serveradmin -x command afp:command = getConnectedUsers
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -36,11 +42,17 @@ sudo serveradmin -x command afp:command = getConnectedUsers
 sudo serveradmin -x command afp:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command afp:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -48,11 +60,17 @@ sudo serveradmin -x command afp:command = getState
 sudo serveradmin -x command afp:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## sendMessage
 
 ```bash
 sudo serveradmin -x command afp:command = sendMessage
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## setState
 
@@ -60,15 +78,24 @@ sudo serveradmin -x command afp:command = sendMessage
 sudo serveradmin -x command afp:command = setState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## syncSharePoints
 
 ```bash
 sudo serveradmin -x command afp:command = syncSharePoints
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command afp:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

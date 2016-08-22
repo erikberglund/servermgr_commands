@@ -26,11 +26,17 @@
 sudo serveradmin -x command filebrowser:command = getDirectoryEntries
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getIconsForPaths
 
 ```bash
 sudo serveradmin -x command filebrowser:command = getIconsForPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getOpenDirectoryRecords
 
@@ -38,11 +44,17 @@ sudo serveradmin -x command filebrowser:command = getIconsForPaths
 sudo serveradmin -x command filebrowser:command = getOpenDirectoryRecords
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command filebrowser:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getVolumeList
 
@@ -50,11 +62,17 @@ sudo serveradmin -x command filebrowser:command = getState
 sudo serveradmin -x command filebrowser:command = getVolumeList
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## newFolder
 
 ```bash
 sudo serveradmin -x command filebrowser:command = newFolder
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## nfsMount
 
@@ -62,11 +80,17 @@ sudo serveradmin -x command filebrowser:command = newFolder
 sudo serveradmin -x command filebrowser:command = nfsMount
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## nfsStatusMount
 
 ```bash
 sudo serveradmin -x command filebrowser:command = nfsStatusMount
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## nfsUnMount
 
@@ -74,15 +98,24 @@ sudo serveradmin -x command filebrowser:command = nfsStatusMount
 sudo serveradmin -x command filebrowser:command = nfsUnMount
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## nfsWriteMountRec
 
 ```bash
 sudo serveradmin -x command filebrowser:command = nfsWriteMountRec
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## refresh
 
 ```bash
 sudo serveradmin -x command filebrowser:command = refresh
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

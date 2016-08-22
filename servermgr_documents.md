@@ -20,11 +20,17 @@
 sudo serveradmin -x command documents:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command documents:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initializeService
 
@@ -32,15 +38,24 @@ sudo serveradmin -x command documents:command = getState
 sudo serveradmin -x command documents:command = initializeService
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command documents:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command documents:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

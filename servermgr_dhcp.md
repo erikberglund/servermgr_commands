@@ -21,11 +21,17 @@
 sudo serveradmin -x command dhcp:command = deleteLeases
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command dhcp:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -33,11 +39,17 @@ sudo serveradmin -x command dhcp:command = getLogPaths
 sudo serveradmin -x command dhcp:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command dhcp:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## tailFile
 
@@ -45,9 +57,15 @@ sudo serveradmin -x command dhcp:command = readSettings
 sudo serveradmin -x command dhcp:command = tailFile
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command dhcp:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

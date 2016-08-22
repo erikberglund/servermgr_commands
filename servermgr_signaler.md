@@ -18,15 +18,24 @@
 sudo serveradmin -x command signaler:command = fireHomeDirsCreation
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command signaler:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## setUserQuotas
 
 ```bash
 sudo serveradmin -x command signaler:command = setUserQuotas
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

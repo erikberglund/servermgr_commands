@@ -26,11 +26,17 @@
 sudo serveradmin -x command radius:command = addClients
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## captureBaseStation
 
 ```bash
 sudo serveradmin -x command radius:command = captureBaseStation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getAirportList
 
@@ -38,11 +44,17 @@ sudo serveradmin -x command radius:command = captureBaseStation
 sudo serveradmin -x command radius:command = getAirportList
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command radius:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getSSID
 
@@ -50,11 +62,17 @@ sudo serveradmin -x command radius:command = getLogPaths
 sudo serveradmin -x command radius:command = getSSID
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command radius:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## nasAvailableList
 
@@ -62,11 +80,17 @@ sudo serveradmin -x command radius:command = getState
 sudo serveradmin -x command radius:command = nasAvailableList
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readProgress
 
 ```bash
 sudo serveradmin -x command radius:command = readProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -74,15 +98,24 @@ sudo serveradmin -x command radius:command = readProgress
 sudo serveradmin -x command radius:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## removeClients
 
 ```bash
 sudo serveradmin -x command radius:command = removeClients
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command radius:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

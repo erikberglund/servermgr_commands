@@ -27,11 +27,17 @@
 sudo serveradmin -x command sharing:command = canAuthDSNode
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## fileInheritACL
 
 ```bash
 sudo serveradmin -x command sharing:command = fileInheritACL
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getConnectedUserCounts
 
@@ -39,11 +45,17 @@ sudo serveradmin -x command sharing:command = fileInheritACL
 sudo serveradmin -x command sharing:command = getConnectedUserCounts
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getDSNodes
 
 ```bash
 sudo serveradmin -x command sharing:command = getDSNodes
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getEffectivePerms
 
@@ -51,11 +63,17 @@ sudo serveradmin -x command sharing:command = getDSNodes
 sudo serveradmin -x command sharing:command = getEffectivePerms
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getLogPaths
 
 ```bash
 sudo serveradmin -x command sharing:command = getLogPaths
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getSharePointList
 
@@ -63,11 +81,17 @@ sudo serveradmin -x command sharing:command = getLogPaths
 sudo serveradmin -x command sharing:command = getSharePointList
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command sharing:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -75,11 +99,17 @@ sudo serveradmin -x command sharing:command = getState
 sudo serveradmin -x command sharing:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## startPropagate
 
 ```bash
 sudo serveradmin -x command sharing:command = startPropagate
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## statusCopyPrivs
 
@@ -87,9 +117,15 @@ sudo serveradmin -x command sharing:command = startPropagate
 sudo serveradmin -x command sharing:command = statusCopyPrivs
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command sharing:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

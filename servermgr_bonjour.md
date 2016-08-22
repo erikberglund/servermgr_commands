@@ -16,3 +16,6 @@
 sudo serveradmin -x command bonjour:command = getBonjourInstanceNames
 ```
 
+**Availability**
+* 5.1.7-15S7055
+

@@ -23,11 +23,17 @@
 sudo serveradmin -x command alerts:command = clearAlerts
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getAlerts
 
 ```bash
 sudo serveradmin -x command alerts:command = getAlerts
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## markAlertAsRead
 
@@ -35,11 +41,17 @@ sudo serveradmin -x command alerts:command = getAlerts
 sudo serveradmin -x command alerts:command = markAlertAsRead
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## markAlertAsResolved
 
 ```bash
 sudo serveradmin -x command alerts:command = markAlertAsResolved
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## performRecoveryAction
 
@@ -47,11 +59,17 @@ sudo serveradmin -x command alerts:command = markAlertAsResolved
 sudo serveradmin -x command alerts:command = performRecoveryAction
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command alerts:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## sendTestAlert
 
@@ -59,9 +77,15 @@ sudo serveradmin -x command alerts:command = readSettings
 sudo serveradmin -x command alerts:command = sendTestAlert
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command alerts:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

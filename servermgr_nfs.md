@@ -20,11 +20,17 @@
 sudo serveradmin -x command nfs:command = getConnectedUsers
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command nfs:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -32,15 +38,24 @@ sudo serveradmin -x command nfs:command = getState
 sudo serveradmin -x command nfs:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## updateNFS
 
 ```bash
 sudo serveradmin -x command nfs:command = updateNFS
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command nfs:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

@@ -18,15 +18,24 @@
 sudo serveradmin -x command firewall:command = logSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command firewall:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command firewall:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

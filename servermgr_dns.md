@@ -22,11 +22,17 @@
 sudo serveradmin -x command dns:command = createRndcKeys
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## flushCache
 
 ```bash
 sudo serveradmin -x command dns:command = flushCache
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -34,11 +40,17 @@ sudo serveradmin -x command dns:command = flushCache
 sudo serveradmin -x command dns:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command dns:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## migrate
 
@@ -46,15 +58,24 @@ sudo serveradmin -x command dns:command = getState
 sudo serveradmin -x command dns:command = migrate
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command dns:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command dns:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

@@ -23,11 +23,17 @@
 sudo serveradmin -x command collabd:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getMoveDataLocationProgress
 
 ```bash
 sudo serveradmin -x command collabd:command = getMoveDataLocationProgress
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getState
 
@@ -35,11 +41,17 @@ sudo serveradmin -x command collabd:command = getMoveDataLocationProgress
 sudo serveradmin -x command collabd:command = getState
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## initialSetup
 
 ```bash
 sudo serveradmin -x command collabd:command = initialSetup
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## readSettings
 
@@ -47,11 +59,17 @@ sudo serveradmin -x command collabd:command = initialSetup
 sudo serveradmin -x command collabd:command = readSettings
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## startMoveDataLocation
 
 ```bash
 sudo serveradmin -x command collabd:command = startMoveDataLocation
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## testDataLocationChange
 
@@ -59,9 +77,15 @@ sudo serveradmin -x command collabd:command = startMoveDataLocation
 sudo serveradmin -x command collabd:command = testDataLocationChange
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command collabd:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 

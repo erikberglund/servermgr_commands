@@ -23,11 +23,17 @@
 sudo serveradmin -x command swupdate:command = CheckNow
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## CopyNow
 
 ```bash
 sudo serveradmin -x command swupdate:command = CopyNow
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## getLogPaths
 
@@ -35,11 +41,17 @@ sudo serveradmin -x command swupdate:command = CopyNow
 sudo serveradmin -x command swupdate:command = getLogPaths
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## getState
 
 ```bash
 sudo serveradmin -x command swupdate:command = getState
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## initialSetup
 
@@ -47,11 +59,17 @@ sudo serveradmin -x command swupdate:command = getState
 sudo serveradmin -x command swupdate:command = initialSetup
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## readSettings
 
 ```bash
 sudo serveradmin -x command swupdate:command = readSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
 ## upgradeConfig
 
@@ -59,9 +77,15 @@ sudo serveradmin -x command swupdate:command = readSettings
 sudo serveradmin -x command swupdate:command = upgradeConfig
 ```
 
+**Availability**
+* 5.1.7-15S7055
+
 ## writeSettings
 
 ```bash
 sudo serveradmin -x command swupdate:command = writeSettings
 ```
+
+**Availability**
+* 5.1.7-15S7055
 
