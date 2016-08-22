@@ -1,16 +1,86 @@
 #!/usr/bin/env bash
 
+#//////////////////////////////////////////////////////////////////////////////////////////////////
 ###
 ### VARIABLES
 ###
+#//////////////////////////////////////////////////////////////////////////////////////////////////
 
-path_servermgr_bundles="/Applications/Server.app/Contents/ServerRoot/usr/share/servermgrd/bundles"
-path_output_folder="/Users/erikberglund/GitHub/servermgr_commands"
 github_base_url="https://github.com/erikberglund/servermgr_commands/blob/master"
 
+#//////////////////////////////////////////////////////////////////////////////////////////////////
 ###
-### FUNCTIONS
+### FUNCIONS
 ###
+#//////////////////////////////////////////////////////////////////////////////////////////////////
+
+parse_opts() {
+    while getopts "ai:o:u" opt; do
+        case ${opt} in
+            a) search_applications='True' ;;
+            i) input_directory="${OPTARG%/}" ;;
+            o) output_directory="${OPTARG%/}" ;;
+            u) upload='True' ;;
+            \?) usage; exit 1;;
+            :) usage; exit 1;;
+        esac
+    done
+    
+    # Check 'output_directory' options, set to 'PWD' if none was passed.
+    if [[ ${upload} == True ]]; then
+        output_directory="/tmp/servermgr_commands"
+        create_folder "${output_directory}"
+    elif [[ -z ${output_directory} ]]; then
+        output_directory="${PWD}/servermgr_commands"
+        create_folder "${output_directory}"
+    elif ! [[ -d ${output_directory} ]]; then
+        error "${output_directory} is not a directory"
+    fi
+    
+    printf "%s\n" "Output directory: ${output_directory}"
+    
+    # Check if current user has write capabilities for output_directory
+    if ! [[ -w ${output_directory} ]]; then
+        error "User: ${USER} doesn't have write permissions for output folder: ${output_directory}" 
+    fi
+    
+    # Check if option '-a' was passed, then use mdfind to find all applications matching bundle id wildcard search: 'com.apple.Server.v*'
+    if [[ ${search_applications} == True ]]; then
+        old_ifs="${IFS}"; IFS=$'\n'
+        applications+=( $( mdfind "kMDItemCFBundleIdentifier == 'com.apple.Server.v*'c" ) )
+        applications+=( $( mdfind "kMDItemCFBundleIdentifier == 'com.apple.Server'c" ) )
+        IFS="${old_ifs}"
+    fi
+    
+    if [[ ${search_applications} != True ]] || (( ${#applications[@]} == 0 )); then
+        # Check 'input_directory' options, set to '/Applications' if non was passed.
+        if [[ -z ${input_directory} ]]; then
+            input_directory="/Applications"
+        elif ! [[ -d ${input_directory} ]]; then
+            error "${input_directory} is not a directory"
+        fi
+        
+        printf "%s\n" "Input directory: ${input_directory}"
+        
+        # Add all server applications passing test to array 'applications'
+        for app in "${input_directory}"/*\.app/; do
+            if [[ -f "${app}/Contents/Info.plist" ]] && [[ "$( /usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" "${app}/Contents/Info.plist" 2>&1 )" =~  ^com.apple.Server.v* ]]; then
+                applications+=( "${app%/}" )
+            fi
+        done
+    fi
+    
+}
+
+usage() {
+    printf "%s\n" "Usage: ./${0##*/} [options] <argv>..."
+    printf "%s\n" "Options:"
+    printf "  %s\t%s\n" "-a" "(Optional) All server applications on computer (uses mdfind)"
+    printf "  %s\t%s\n" "-i" "(Optional) Input directory (Default: /Applications)"
+    printf "  %s\t%s\n" "-o" "(Optional) Output directory (Default: Current Directory/servermgr_commands)"
+    printf "  %s\t%s\n" "-u" "(Optional) Upload to FTP"
+    printf "\n"
+}
 
 create_folder() {
     # https://github.com/erikberglund/Scripts/blob/master/functions/Bash/create_folder/create_folder.sh
@@ -54,54 +124,93 @@ create_folder() {
     done
 }
 
+#//////////////////////////////////////////////////////////////////////////////////////////////////
 ###
 ### MAIN SCRIPT
 ###
+#//////////////////////////////////////////////////////////////////////////////////////////////////
+
+# Stop globbing from printing itself if there are no matches
+shopt -s nullglob
+
+# Parse passed arguments
+parse_opts "${@}"
 
 # Create output folder if it doesn't exist
-if ! [[ -d ${path_output_folder} ]]; then
-    create_folder "${path_output_folder}"
+if ! [[ -d ${output_directory} ]]; then
+    create_folder "${output_directory}"
 fi
 
-# Loop through all bundles in servermgrd's bundle directory
-for bundle in "${path_servermgr_bundles}"/*; do
+# Loop through all applications and create dmg in output directory
+for application in "${applications[@]}"; do
     
-    # Get path to current bundle binary
-    path_bundle_binary="${bundle}/Contents/MacOS/$( basename ${bundle%.*} )"
-    if ! [[ -f ${path_bundle_binary} ]]; then
-        printf "%s\n" "Found no binary for bundle: ${bundle}"
-        continue
+    printf "%s\n" "Checking ${application}..."
+        
+    # Get application name
+    application_name=$( /usr/libexec/PlistBuddy -c "Print :CFBundleDisplayName" "${application}/Contents/Info.plist" 2>&1 )
+    if [[ ${application_name} =~ "Does Not Exist" ]]; then
+        application_name=$( /usr/libexec/PlistBuddy -c "Print :CFBundleName" "${application}/Contents/Info.plist" 2>&1 )
     fi
     
-    # Get path to current bundle output file
-    path_output_file_bundle="${path_output_folder}/${path_bundle_binary##*/}.md"
+    # Get application version
+    application_version=$( /usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "${application}/Contents/Info.plist" 2>&1 )
     
-    # Print header information
-    {
-        printf "%s\n\n" "# ${path_bundle_binary##*/}"
-        printf "%s\n" '```console'
-        printf "%s\n" "${path_bundle_binary}"
-        printf "%s\n\n" '```'
-        printf "%s\n\n" "# Commands"
-    } > "${path_output_file_bundle}"
+    # Get application build version
+    application_build_version="-$( /usr/libexec/PlistBuddy -c "Print :ProductBuildVersion" "${application}/Contents/ServerRoot/System/Library/CoreServices/ServerVersion.plist" 2>&1 )"
+    if [[ ${application_build_version} =~ "Does Not Exist" ]]; then
+        application_build_version=""
+    fi
     
-    bundle_commands=()
+    # Assemble name for dmg file and volume
+    version=$( sed 's/\ //g' <<< "${application_version}${application_build_version}" )
+        
+    # Loop through all bundles in servermgrd's bundle directory
+    for bundle in "${application}/Contents/ServerRoot/usr/share/servermgrd/bundles"/*; do
+        
+        printf "%s\n" "Parsing bundle: ${bundle}..."
+        
+        # Get path to current bundle binary
+        path_bundle_binary="${bundle}/Contents/MacOS/$( basename ${bundle%.*} )"
+        if ! [[ -f ${path_bundle_binary} ]]; then
+            printf "%s\n" "Found no binary for bundle: ${bundle}"
+            continue
+        fi
     
-    # Loop through all parsed commands from bundle binary
-    while read bundle_command; do
-        printf "%s\n" "* [${bundle_command}](${github_base_url}/${path_output_file_bundle##*/}#$( tr '[:upper:]' '[:lower:]' <<< ${bundle_command} ))" >> "${path_output_file_bundle}"
-        bundle_commands+=("${bundle_command}")
-    done < <( strings "${path_bundle_binary}" | sed -nE 's/^\ ?([a-zA-Z]*)WithRequest:.*/\1/p' | awk '!/^init$/' | sort | uniq )
+        # Get path to current bundle output file
+        path_output_file_bundle="${output_directory}/${path_bundle_binary##*/}.md"
     
-    printf "\n%s\n\n" "# Command Descriptions" >> "${path_output_file_bundle}"
-    while read bundle_command; do
+        # Print header information
         {
-            printf "%s\n\n" "## ${bundle_command}"
-            printf "%s\n" '```bash'
-            printf "%s\n" "sudo serveradmin -x command $( basename ${path_bundle_binary##*_}):command = ${bundle_command}"
+            printf "%s\n\n" "# ${path_bundle_binary##*/}"
+            printf "%s\n" '```console'
+            printf "%s\n" "${path_bundle_binary}"
             printf "%s\n\n" '```'
-        } >> "${path_output_file_bundle}"
-    done < <( printf "%s\n" "${bundle_commands[@]}" )
+            printf "%s\n\n" "# Commands"
+        } > "${path_output_file_bundle}"
+    
+        bundle_commands=()
+    
+        # Loop through all parsed commands from bundle binary
+        while read bundle_command; do
+            printf "%s\n" "* [${bundle_command}](${github_base_url}/${path_output_file_bundle##*/}#$( tr '[:upper:]' '[:lower:]' <<< ${bundle_command} ))" >> "${path_output_file_bundle}"
+            bundle_commands+=("${bundle_command}")
+        done < <( strings "${path_bundle_binary}" | sed -nE 's/^\ ?([a-zA-Z]*)WithRequest:.*/\1/p' | awk '!/^init$/' | sort | uniq )
+    
+        printf "\n%s\n\n" "# Command Descriptions" >> "${path_output_file_bundle}"
+        while read bundle_command; do
+            {
+                printf "%s\n\n" "## ${bundle_command}"
+                printf "%s\n" '```bash'
+                printf "%s\n" "sudo serveradmin -x command $( basename ${path_bundle_binary##*_}):command = ${bundle_command}"
+                printf "%s\n\n" '```'
+                printf "%s\n" '**Availability**'
+                printf "%s\n\n" "* ${version}"
+            } >> "${path_output_file_bundle}"
+        done < <( printf "%s\n" "${bundle_commands[@]}" )
+    done
 done
+
+# Restore globbing behaviour.
+shopt -u nullglob
 
 exit 0
